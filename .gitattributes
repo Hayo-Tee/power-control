@@ -1,2 +1,17 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# ESPHome
+*.pyc
+__pycache__
+.esphome/
+secrets.yaml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build
+firmware.bin
+bootloader.bin
+partitions.bin
+boot_app0.bin
