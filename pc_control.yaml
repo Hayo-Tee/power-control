@@ -1,6 +1,6 @@
 substitutions:
   power_pin: GPIO4     # Пин для кнопки питания (через транзистор)
-  reboot_pin: GPIO8    # Пин для кнопки Reboot (через транзистор BM548)
+  reboot_pin: GPIO21    # Пин для кнопки Reboot (через транзистор BM548)
   api_key: !secret power_control_api
   wifi_ssid: !secret wifi_ssid
   wifi_password: !secret wifi_password
@@ -43,7 +43,7 @@ output:
     pin: 
       number: ${reboot_pin}
       mode: output
-      inverted: true
+      inverted: false
     id: reboot_button_output
 
 
