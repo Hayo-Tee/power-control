@@ -5,7 +5,7 @@ Collection of ESPHome device configurations and documentation.
 ## Device Categories
 
 ### PC Control
-- [WOL](wol/) - ESP32-based PC power control with Wake-on-LAN support
+- [PC Control](wol/) - ESP32-based PC power control.
 
 ---
 Last updated: 2025-03-03 04:24:16 UTC  
