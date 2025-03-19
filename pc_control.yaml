@@ -1,17 +1,16 @@
 substitutions:
-  power_pin: GPIO4     # Пин для кнопки питания (через транзистор)
-  reboot_pin: GPIO6    # Пин для кнопки Reboot (через транзистор BM548)
+  power_pin: GPIO4     
+  reboot_pin: GPIO6    
   status_pin: GPIO8
+  vm_power_pin: GPIO10  
   api_key: !secret power_control_api
   wifi_ssid: !secret wifi_ssid
   wifi_password: !secret wifi_password
   ap_password: !secret ap_password
-  ota_password: !secret power_control_ota
 
 esphome:
   name: pc-power-control
   friendly_name: "PC Control"
-
 
 esp32:
   board: esp32-c3-devkitm-1
@@ -19,6 +18,14 @@ esp32:
     type: arduino
 
 logger:
+  baud_rate: 0
+
+uart:
+  id: uart_bus
+  tx_pin: GPIO21
+  rx_pin: GPIO20
+  baud_rate: 460800
+
 
 api:
   encryption:
@@ -27,8 +34,7 @@ api:
 
 ota:
   platform: esphome
-  password: "xxxx"     # пароль для OTA
-
+  password: 1507
 
 wifi:
   ssid: ${wifi_ssid}
@@ -41,19 +47,17 @@ wifi:
 web_server:
   port: 80
 
-
+# **Исправлено: добавлен блок output**
 output:
   - platform: gpio
     pin: ${power_pin}
     id: power_button_output
 
   - platform: gpio
-    pin: 
-      number: ${reboot_pin}
-      mode: output
-      inverted: false
+    pin: ${reboot_pin}
     id: reboot_button_output
 
+# **Исправлено: корректный статусный датчик**
 binary_sensor:
   - platform: gpio
     pin:
@@ -63,41 +67,6 @@ binary_sensor:
     device_class: power
     id: pc_status
 
-# Кнопки управления питанием
-button:
-  - platform: template
-    name: "Turn On PC"
-    icon: "mdi:power"
-    on_press:
-      - output.turn_on: power_button_output
-      - delay: 500ms
-      - output.turn_off: power_button_output
-
-  - platform: template
-    name: "Soft Shutdown PC"
-    icon: "mdi:power-standby"
-    on_press:
-      - output.turn_on: power_button_output
-      - delay: 1s
-      - output.turn_off: power_button_output
-
-  - platform: template
-    name: "Force Shutdown PC"
-    icon: "mdi:power-off"
-    on_press:
-      - output.turn_on: power_button_output
-      - delay: 5s
-      - output.turn_off: power_button_output
-
-  - platform: template
-    name: "Reboot PC"
-    icon: "mdi:restart-alert"
-    on_press:
-      - output.turn_on: reboot_button_output
-      - delay: 500ms
-      - output.turn_off: reboot_button_output
-
-# Мониторинг состояния
 sensor:
   - platform: uptime
     name: "Uptime"
@@ -110,3 +79,83 @@ text_sensor:
   - platform: wifi_info
     ip_address:
       name: "IP Address"
+
+# **Исправлено: Теперь кнопки используют output.turn_on**
+button:
+  # ПК
+  - platform: template
+    name: "Turn On PC"
+    icon: "mdi:power"
+    entity_category: "config"
+    on_press:
+      if:
+        condition:
+          binary_sensor.is_off: pc_status
+        then:
+          - output.turn_on: power_button_output
+          - delay: 500ms
+          - output.turn_off: power_button_output
+
+  - platform: template
+    name: "Soft Shutdown PC"
+    icon: "mdi:power-standby"
+    entity_category: "config"
+    on_press:
+      if:
+        condition:
+          binary_sensor.is_on: pc_status
+        then:
+          - output.turn_on: power_button_output
+          - delay: 1s
+          - output.turn_off: power_button_output
+
+  - platform: template
+    name: "Force Shutdown PC"
+    icon: "mdi:power-off"
+    entity_category: "config"
+    on_press:
+      if:
+        condition:
+          binary_sensor.is_on: pc_status
+        then:
+          - output.turn_on: power_button_output
+          - delay: 5s
+          - output.turn_off: power_button_output
+
+  - platform: template
+    name: "Reboot PC"
+    icon: "mdi:restart-alert"
+    entity_category: "config"
+    on_press:
+      - output.turn_on: reboot_button_output
+      - delay: 500ms
+      - output.turn_off: reboot_button_output
+
+  # ВМ
+  - platform: template
+    name: "Start VM"
+    icon: "mdi:play"
+    entity_category: "config"
+    on_press:
+      - uart.write: "start_vm\n"
+
+  - platform: template
+    name: "Stop VM"
+    icon: "mdi:stop"
+    entity_category: "config"
+    on_press:
+      - uart.write: "stop_vm\n"
+
+  - platform: template
+    name: "Reboot VM"
+    icon: "mdi:restart"
+    entity_category: "config"
+    on_press:
+      - uart.write: "reboot_vm\n"
+
+  - platform: template
+    name: "Force Stop VM"
+    icon: "mdi:power-off"
+    entity_category: "config"
+    on_press:
+      - uart.write: "force_vm\n"
