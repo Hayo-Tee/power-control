@@ -1,6 +1,7 @@
 substitutions:
   power_pin: GPIO4     # Пин для кнопки питания (через транзистор)
   reboot_pin: GPIO6    # Пин для кнопки Reboot (через транзистор BM548)
+  status_pin: GPIO8
   api_key: !secret power_control_api
   wifi_ssid: !secret wifi_ssid
   wifi_password: !secret wifi_password
@@ -26,7 +27,7 @@ api:
 
 ota:
   platform: esphome
-  password: "1507"
+  password: "xxxx"     # пароль для OTA
 
 
 wifi:
@@ -53,6 +54,14 @@ output:
       inverted: false
     id: reboot_button_output
 
+binary_sensor:
+  - platform: gpio
+    pin:
+      number: ${status_pin}
+      mode: input
+    name: "PC Status"
+    device_class: power
+    id: pc_status
 
 # Кнопки управления питанием
 button:
