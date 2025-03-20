@@ -5,8 +5,7 @@ Collection of ESPHome device configurations and documentation.
 ## Device Categories
 
 ### PC Control
-- [PC Control](wol/) - ESP32-based PC power control.
+- [PC Control](pc_control/) - ESP32-based PC and Virtual machine power control.
+- [VM Control](vm_control/) - VM control Userscript for UNRAID.
 
 ---
-Last updated: 2025-03-03 04:24:16 UTC  
-Maintained by: [Hayo-Tee](https://github.com/Hayo-Tee)
