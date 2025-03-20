@@ -6,6 +6,6 @@ Collection of ESPHome device configurations and documentation.
 
 ### PC Control
 - [PC Control](pc_control.yaml/) - ESP32-based PC and Virtual machine power control.
-- [VM Control](vm_control/) - VM control Userscript for UNRAID.
+- [VM Control](vm_control.sh/) - VM control Userscript for UNRAID.
 
 ---
