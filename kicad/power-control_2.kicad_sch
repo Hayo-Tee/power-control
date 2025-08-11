@@ -2633,299 +2633,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_Elektuur:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.54 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Indicator" "+"
-				(at -3.175 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Rating" "W"
-				(at 2.54 -3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_1_1"
-				(polyline
-					(pts
-						(xy -1.524 -3.429) (xy 1.524 -3.429) (xy 1.524 3.429) (xy -1.524 3.429) (xy -1.524 -3.429) (xy -1.27 -3.175)
-						(xy -1.27 3.175) (xy 1.27 3.175) (xy 1.27 -3.175) (xy -1.27 -3.175) (xy -1.524 -3.429)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 1.651)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 1.651)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_1_2"
-				(polyline
-					(pts
-						(xy -0.508 -3.429) (xy 1.524 -3.429) (xy 1.524 3.429) (xy -0.508 3.429) (xy -0.508 3.175) (xy 1.27 3.175)
-						(xy 1.27 -3.175) (xy -0.508 -3.175) (xy -0.508 -3.429)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 1.651)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 1.651)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_1_3"
-				(polyline
-					(pts
-						(xy 0 3.4798) (xy 0 3.2004) (xy 0.7112 2.794) (xy -1.1938 1.6764) (xy 0.7112 0.5588) (xy -1.1938 -0.5588)
-						(xy 0.7112 -1.6764) (xy -1.1938 -2.794) (xy 0 -3.4798) (xy 0 -3.2004) (xy -0.7112 -2.794) (xy 1.1938 -1.6764)
-						(xy -0.7112 -0.5588) (xy 1.1938 0.5588) (xy -0.7112 1.6764) (xy 1.1938 2.794) (xy 0 3.4798)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 1.6002)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 1.6002)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_1_4"
-				(polyline
-					(pts
-						(xy 0 4.5466) (xy 0 4.2672) (xy 0.0508 4.2418) (xy 1.016 3.683) (xy -1.524 2.2098) (xy 1.016 0.7366)
-						(xy -1.524 -0.7366) (xy 1.016 -2.2098) (xy -1.524 -3.683) (xy -0.0762 -4.5212) (xy 0 -4.5466)
-						(xy 0 -4.2672) (xy -0.0508 -4.2418) (xy -1.016 -3.683) (xy 1.524 -2.2098) (xy -1.016 -0.7366)
-						(xy 1.524 0.7366) (xy -1.016 2.2098) (xy 1.524 3.683) (xy 0.0762 4.5212) (xy 0 4.5466)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 0.5334)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 0.5334)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PCM_Resistor_AKL:R_0805"
+		(symbol "PCM_Resistor_AKL:R_0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2944,7 +2652,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "R_0805"
+			(property "Value" "R_0603"
 				(at 2.54 -1.27 0)
 				(effects
 					(font
@@ -2953,7 +2661,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric"
+			(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
 				(at 0 -11.43 0)
 				(effects
 					(font
@@ -2971,7 +2679,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SMD 0805 Chip Resistor, European Symbol, Alternate KiCad Library"
+			(property "Description" "SMD 0603 Chip Resistor, European Symbol, Alternate KiCad Library"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2980,7 +2688,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "R res resistor eu  smd 0805"
+			(property "ki_keywords" "R res resistor eu SMD 0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2998,7 +2706,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0805_0_1"
+			(symbol "R_0603_0_1"
 				(rectangle
 					(start -1.016 2.54)
 					(end 1.016 -2.54)
@@ -3011,7 +2719,7 @@
 					)
 				)
 			)
-			(symbol "R_0805_0_2"
+			(symbol "R_0603_0_2"
 				(polyline
 					(pts
 						(xy -2.54 -2.54) (xy -1.524 -1.524)
@@ -3049,7 +2757,7 @@
 					)
 				)
 			)
-			(symbol "R_0805_1_1"
+			(symbol "R_0603_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -3087,7 +2795,7 @@
 					)
 				)
 			)
-			(symbol "R_0805_1_2"
+			(symbol "R_0603_1_2"
 				(pin passive line
 					(at -2.54 -2.54 0)
 					(length 0)
@@ -3120,6 +2828,355 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_Resistor_AKL:R_1206"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_1206"
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD 1206 Chip Resistor, European Symbol, Alternate KiCad Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor eu  smd 1206"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_1206_0_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1206_0_2"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -1.524 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 1.524) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 1.524) (xy 0.889 2.159) (xy -2.159 -0.889) (xy -0.889 -2.159) (xy 2.159 0.889) (xy 1.524 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1206_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_1206_1_2"
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 2.54 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_SL_Capacitors:100uF_16V"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100uF_16V"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+				(at 0.762 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0.508 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100uF, 16V Electrolytic Capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Electrolytic Capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Capacitor_THT:CP_Radial_D5.0mm_* Capacitor_THT:CP_Radial_D4.0mm_* Capacitor_THT:CP_Radial_D6.3mm_* Capacitor_THT:CP_Radial_D7.5mm_* Capacitor_THT:CP_Radial_D8.0mm_* Capacitor_THT:CP_Radial_D10.0mm_* Capacitor_THT:CP_Radial_D14.0mm_* Capacitor_THT:CP_Radial_D16.0mm_* Capacitor_THT:CP_Radial_D18.0mm_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "100uF_16V_0_0"
+				(text "+"
+					(at -2.032 1.524 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "-"
+					(at 2.032 1.524 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "100uF_16V_0_1"
+				(rectangle
+					(start -1.016 -2.286)
+					(end -0.508 2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.508 -2.286)
+					(end 1.016 2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "100uF_16V_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.7)
+					(name "~"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 0 180)
+					(length 2.7)
+					(name "~"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
 							)
 						)
 					)
@@ -3916,124 +3973,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_SL_Resistors:Resistor"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Resistor"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-				(at 0.889 -4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0.508 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1/4W Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Resistor_0_1"
-				(rectangle
-					(start -2.286 0.889)
-					(end 2.286 -0.889)
-					(stroke
-						(width 0.24)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Resistor_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.5)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.5)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_Transistor_BJT_AKL:BC548"
 			(pin_names
 				(hide yes)
@@ -4413,16 +4352,28 @@
 		(uuid "010398b8-8c8e-40f9-b381-cc0f7a1965dd")
 	)
 	(junction
-		(at 252.73 105.41)
+		(at 252.73 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "04945409-175e-4515-931c-cf7e874d7f61")
+		(uuid "03874213-8871-49bc-bb91-3d06d0d104e2")
 	)
 	(junction
 		(at 229.87 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13080aba-f576-42fa-a01e-842d9e481262")
+	)
+	(junction
+		(at 252.73 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18f43c9d-9ecb-4786-ac6e-fcd28d801d2e")
+	)
+	(junction
+		(at 252.73 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3196d130-01e4-4abb-8185-c48fd58df2db")
 	)
 	(junction
 		(at 242.57 88.9)
@@ -4435,12 +4386,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e462d90-eafd-44f6-bc5a-8a2590413dcc")
-	)
-	(junction
-		(at 252.73 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4bfd3d92-5d9a-400d-8013-b8131ffdc2a6")
 	)
 	(junction
 		(at 234.95 154.94)
@@ -4461,16 +4406,22 @@
 		(uuid "538c6887-38c7-427a-9153-6009cbda8139")
 	)
 	(junction
+		(at 252.73 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5853f6b9-481e-44e3-b198-f537f2e19647")
+	)
+	(junction
 		(at 203.2 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "62dcba9b-69d6-42da-8868-dc196271ab07")
 	)
 	(junction
-		(at 252.73 102.87)
+		(at 252.73 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "727434cf-92b4-4997-a57b-1657dd2fce78")
+		(uuid "6c39c0f9-caa7-4104-a38d-dfdfc02878cc")
 	)
 	(junction
 		(at 199.39 69.85)
@@ -4489,12 +4440,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "860946aa-219f-4e2f-ab8e-2e6a33c3e40f")
-	)
-	(junction
-		(at 252.73 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8facf2f7-0726-4f64-a28d-f3c77d3d1bf3")
 	)
 	(junction
 		(at 152.4 119.38)
@@ -4521,28 +4466,22 @@
 		(uuid "af97f717-ce22-44d1-ab9c-642fc9d5d13f")
 	)
 	(junction
+		(at 252.73 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b41ee611-16f3-4ac4-9941-a598900f1800")
+	)
+	(junction
 		(at 252.73 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c367092f-f7bc-4af6-8428-b2b73e013682")
-	)
-	(junction
-		(at 100.33 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7d7a5c9-861f-473a-b835-91430cb4331f")
+		(uuid "c8461c63-634c-4b64-b182-ea7b67c4b4cc")
 	)
 	(junction
 		(at 45.72 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4ba29b1-8092-4d1f-8327-f3ba4ecd34fa")
-	)
-	(junction
-		(at 252.73 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "db5858b2-2fce-4b47-8bda-04bbcdb81691")
 	)
 	(junction
 		(at 25.4 25.4)
@@ -4557,10 +4496,10 @@
 		(uuid "e505d41b-4c3c-4adb-b64a-a93b914a5df8")
 	)
 	(junction
-		(at 252.73 125.73)
+		(at 252.73 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "eaad3be3-e3fc-4d7b-9b68-55e4644142e7")
+		(uuid "ee6546e5-d7f3-46ca-a632-342db4e92143")
 	)
 	(junction
 		(at 237.49 69.85)
@@ -4573,12 +4512,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f47621fc-bfab-4238-9896-eb2e98a7cdf9")
-	)
-	(junction
-		(at 252.73 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f55a7090-18ab-490b-b91c-d03c888e349d")
 	)
 	(junction
 		(at 107.95 46.99)
@@ -4660,7 +4593,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 35.56) (xy 171.45 35.56)
+			(xy 171.45 35.56) (xy 175.26 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4687,16 +4620,6 @@
 			(type default)
 		)
 		(uuid "06d8a956-543e-40ec-a4a4-f4e5068d0fd6")
-	)
-	(wire
-		(pts
-			(xy 252.73 125.73) (xy 260.35 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07070a0b-67eb-41d5-aabc-17abf0e70265")
 	)
 	(wire
 		(pts
@@ -4740,16 +4663,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 46.99) (xy 105.41 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f91f24a-df46-4b23-8cf0-71cae38e96b5")
-	)
-	(wire
-		(pts
 			(xy 127 149.86) (xy 127 153.67)
 		)
 		(stroke
@@ -4767,16 +4680,6 @@
 			(type default)
 		)
 		(uuid "111fefab-6a24-4607-8146-53899e63ef52")
-	)
-	(wire
-		(pts
-			(xy 252.73 113.03) (xy 260.35 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "114cf77b-4c82-4203-aff1-549bae5489e5")
 	)
 	(wire
 		(pts
@@ -4820,16 +4723,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 110.49) (xy 86.36 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "198e27f0-3094-4bf9-b6fe-c401e377322a")
-	)
-	(wire
-		(pts
 			(xy 92.71 39.37) (xy 92.71 46.99)
 		)
 		(stroke
@@ -4847,16 +4740,6 @@
 			(type default)
 		)
 		(uuid "1d49b892-03b2-403a-b681-d3cfe0a33622")
-	)
-	(wire
-		(pts
-			(xy 252.73 110.49) (xy 260.35 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d7b7eaf-55b7-4b38-97ff-d20292d40af2")
 	)
 	(wire
 		(pts
@@ -4897,16 +4780,6 @@
 			(type default)
 		)
 		(uuid "23fb2887-e8b2-419e-a24b-819fee09338c")
-	)
-	(wire
-		(pts
-			(xy 251.46 110.49) (xy 252.73 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "248c0314-1d66-4dee-a013-17b8f59be54f")
 	)
 	(wire
 		(pts
@@ -4960,13 +4833,13 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 102.87) (xy 260.35 102.87)
+			(xy 252.73 128.27) (xy 260.35 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2e9d504d-809f-487a-a3f0-b62ded45dd7e")
+		(uuid "30d1ecd1-9313-4dcd-867e-aeb2f340af3a")
 	)
 	(wire
 		(pts
@@ -4977,6 +4850,16 @@
 			(type default)
 		)
 		(uuid "316d6f6f-72b4-4b3f-8bff-1501637abae4")
+	)
+	(wire
+		(pts
+			(xy 252.73 110.49) (xy 260.35 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3252986c-ee74-4f3b-82e5-fe38ba2b329a")
 	)
 	(wire
 		(pts
@@ -5040,7 +4923,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 106.68) (xy 100.33 110.49)
+			(xy 100.33 106.68) (xy 100.33 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5077,6 +4960,16 @@
 			(type default)
 		)
 		(uuid "3fb3d6bb-4386-474c-bfb8-d197d112a7a6")
+	)
+	(wire
+		(pts
+			(xy 49.53 35.56) (xy 52.07 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42375ac1-4c50-4745-8230-a0b45eee7bbd")
 	)
 	(wire
 		(pts
@@ -5120,17 +5013,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 110.49) (xy 100.33 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4973e4cf-3d55-452f-a004-6543cccb6b46")
-	)
-	(wire
-		(pts
-			(xy 107.95 27.94) (xy 107.95 29.21)
+			(xy 107.95 27.94) (xy 107.95 30.48)
 		)
 		(stroke
 			(width 0)
@@ -5190,16 +5073,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 154.94) (xy 234.95 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "554cfba5-dfed-4e10-afc3-a11ab89c1fb5")
-	)
-	(wire
-		(pts
 			(xy 144.78 73.66) (xy 144.78 77.47)
 		)
 		(stroke
@@ -5250,7 +5123,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 46.99) (xy 92.71 46.99)
+			(xy 92.71 46.99) (xy 96.52 46.99)
 		)
 		(stroke
 			(width 0)
@@ -5267,16 +5140,6 @@
 			(type default)
 		)
 		(uuid "659c6bb4-6768-4507-9999-98a11a0f5037")
-	)
-	(wire
-		(pts
-			(xy 252.73 118.11) (xy 260.35 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6859380b-6414-41ce-a6c1-ff662c82ab4b")
 	)
 	(wire
 		(pts
@@ -5310,6 +5173,26 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 46.99) (xy 107.95 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b540c98-2f51-4d3d-8dbf-4fb92edfa699")
+	)
+	(wire
+		(pts
+			(xy 252.73 105.41) (xy 260.35 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6db251d9-b8c9-4ad1-973f-f55652fca883")
+	)
+	(wire
+		(pts
 			(xy 229.87 97.79) (xy 229.87 86.36)
 		)
 		(stroke
@@ -5337,6 +5220,16 @@
 			(type default)
 		)
 		(uuid "72641594-cc63-451d-884b-d51e821a5387")
+	)
+	(wire
+		(pts
+			(xy 217.17 154.94) (xy 219.71 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "737dfe55-9964-4700-b5ba-05ac6fe34f6a")
 	)
 	(wire
 		(pts
@@ -5420,7 +5313,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 82.55) (xy 30.48 82.55)
+			(xy 20.32 87.63) (xy 30.48 87.63)
 		)
 		(stroke
 			(width 0)
@@ -5470,16 +5363,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 128.27) (xy 260.35 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8235e44a-2bd4-4d4a-8aef-2a854c2eda00")
-	)
-	(wire
-		(pts
 			(xy 148.59 110.49) (xy 152.4 110.49)
 		)
 		(stroke
@@ -5490,13 +5373,23 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 46.99) (xy 107.95 39.37)
+			(xy 251.46 110.49) (xy 252.73 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "86554ccc-298d-43fc-9be8-ceb4b9fa9498")
+		(uuid "835b201c-9174-4200-b94c-c20ab4940b1f")
+	)
+	(wire
+		(pts
+			(xy 227.33 154.94) (xy 234.95 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84d5ae2d-3bdd-49bc-a50f-dc85c33045b0")
 	)
 	(wire
 		(pts
@@ -5510,16 +5403,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 110.49) (xy 87.63 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a3f9364-86d7-4157-9980-b27c45deb0d4")
-	)
-	(wire
-		(pts
 			(xy 157.48 41.91) (xy 157.48 46.99)
 		)
 		(stroke
@@ -5530,13 +5413,13 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 110.49) (xy 100.33 111.76)
+			(xy 252.73 120.65) (xy 260.35 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "90176112-d205-4c1e-8b0a-f4f3cb4ac300")
+		(uuid "903d625f-78b8-423b-b703-059255f5e0b5")
 	)
 	(wire
 		(pts
@@ -5630,6 +5513,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 125.73) (xy 260.35 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c229922-8ca6-41fe-bd66-fd1553f3beec")
+	)
+	(wire
+		(pts
 			(xy 110.49 151.13) (xy 110.49 147.32)
 		)
 		(stroke
@@ -5650,16 +5543,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 120.65) (xy 260.35 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f6c8dde-d5e6-4c8e-a4e5-1ba8e75e2e57")
-	)
-	(wire
-		(pts
 			(xy 203.2 69.85) (xy 203.2 78.74)
 		)
 		(stroke
@@ -5667,6 +5550,16 @@
 			(type default)
 		)
 		(uuid "9fc03c78-1853-4b27-9368-a3a53da355a8")
+	)
+	(wire
+		(pts
+			(xy 252.73 102.87) (xy 260.35 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0762547-fe84-4f39-bb76-4388a184ab2b")
 	)
 	(wire
 		(pts
@@ -5687,6 +5580,16 @@
 			(type default)
 		)
 		(uuid "a2067347-4aa2-4736-883f-426e843dfab4")
+	)
+	(wire
+		(pts
+			(xy 107.95 38.1) (xy 107.95 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2bf4d52-8915-44e9-88fb-5b17e1ca1809")
 	)
 	(wire
 		(pts
@@ -5740,16 +5643,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 113.03) (xy 252.73 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab999b11-9c07-4863-9f90-6c9a71992c38")
-	)
-	(wire
-		(pts
 			(xy 137.16 110.49) (xy 137.16 111.76)
 		)
 		(stroke
@@ -5800,16 +5693,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 154.94) (xy 219.71 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8bef45e-64e7-452f-82c5-ea351c907b58")
-	)
-	(wire
-		(pts
 			(xy 135.89 180.34) (xy 144.78 180.34)
 		)
 		(stroke
@@ -5817,16 +5700,6 @@
 			(type default)
 		)
 		(uuid "b8c5d71a-8f95-4009-aff9-b0d44f980664")
-	)
-	(wire
-		(pts
-			(xy 251.46 120.65) (xy 252.73 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc2cabee-0aef-48b8-bb2f-648cc4ccb09c")
 	)
 	(wire
 		(pts
@@ -5887,6 +5760,16 @@
 			(type default)
 		)
 		(uuid "c97ca413-f301-475c-8904-40965a6e6945")
+	)
+	(wire
+		(pts
+			(xy 251.46 120.65) (xy 252.73 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9e76071-a0c5-4068-84de-8425695dd952")
 	)
 	(wire
 		(pts
@@ -5960,7 +5843,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 109.22) (xy 64.77 109.22)
+			(xy 53.34 109.22) (xy 69.85 109.22)
 		)
 		(stroke
 			(width 0)
@@ -5990,6 +5873,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 113.03) (xy 260.35 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7a82079-ef55-4c0f-b75a-e603dd462e55")
+	)
+	(wire
+		(pts
 			(xy 135.89 177.8) (xy 144.78 177.8)
 		)
 		(stroke
@@ -6007,6 +5900,16 @@
 			(type default)
 		)
 		(uuid "d8d3e179-1d27-4b53-a9b1-c98007f4222f")
+	)
+	(wire
+		(pts
+			(xy 252.73 118.11) (xy 260.35 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db618fde-ffb3-4747-a11a-96607f806206")
 	)
 	(wire
 		(pts
@@ -6030,7 +5933,17 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 109.22) (xy 64.77 115.57)
+			(xy 182.88 35.56) (xy 184.15 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e02a8973-189a-4c84-a42f-a56f8abec8ce")
+	)
+	(wire
+		(pts
+			(xy 69.85 109.22) (xy 69.85 115.57)
 		)
 		(stroke
 			(width 0)
@@ -6100,6 +6013,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 113.03) (xy 252.73 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f085f4e5-ebc4-4169-bd23-6042105b9a4e")
+	)
+	(wire
+		(pts
 			(xy 115.57 110.49) (xy 115.57 119.38)
 		)
 		(stroke
@@ -6117,6 +6040,16 @@
 			(type default)
 		)
 		(uuid "f1a41b2c-957f-46ce-8887-7fe5ba984a45")
+	)
+	(wire
+		(pts
+			(xy 64.77 115.57) (xy 69.85 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1db268c-b617-4465-b3e6-e7a4e4472332")
 	)
 	(wire
 		(pts
@@ -6197,16 +6130,6 @@
 			(type default)
 		)
 		(uuid "fa7de6cd-d845-4ccf-9cbc-9fb3689bc322")
-	)
-	(wire
-		(pts
-			(xy 252.73 105.41) (xy 260.35 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb0224ce-acb8-4eea-b5be-9b83f678437b")
 	)
 	(wire
 		(pts
@@ -8393,7 +8316,187 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-			"AAAAAAAAAAAAAAAAAA=="
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAA1TuPA+VYKeKPb5JP+hAPq07mrgzbDzyEw/sn2td2mGYhOl2rf9Mha2tW8V"
+			"OmInUbM5pgsRsIZMvltOYxQasqrztxX254039s+FjMcLvPw3JPvt+/SG4Tn2pwxiV9yeReeXg/ba"
+			"eH7qRxRgbokgBGRWeVOn+loUzbc1QQ671Cq22GRy6U563hUl/05XAl0JFz7bbLH1/LNExxWRWLtj"
+			"ECoE7q9YyBnHkMxKrYAWftbG2HFeTVhGKY2NUKj5lqhH7tHIDMoOGcLG8+V1GIpU2e7D3O536CFq"
+			"FJ8MvN9bIZ39fQvXEU+pXSMx9DGCg1r4G38wMeLKniCAEONpEX+twdjOYWX1y5qlKi84/KJD11fP"
+			"xZ3ZCknAn3WxCPyq9fhxb3ta6S96Y9Pl6IOOJGkweqe/HNw+RQF1H5MEuZlQ1tsV6JjHOOE5pgxM"
+			"8BV+AUb4oLbbX/dkJRZrNUAhzqTNuckvy4PbaxSb9/zCHm49SYCxXpwaDHxrZ2x6WnKVQA0ttBJS"
+			"R4TQossN9r5Z35wxWVf/QtATah4LDL8Xq1tMO0TuuBA1PgEhhR8FYDY6+aD2G6kWG/gebvY5dm0l"
+			"D0UzgSFhq3/h0iY8aLGGY+JBF37pO7cGxll55+9ivc+/RrSY4ymEcusL2WtwpG617kQn6uFnkNpj"
+			"DH0tYSWAOJBYx6FrnVekm1BDHTG2qN7MyvMsKeBXD0gs05BJA6RB7prITOP4MxdKpohOvmfK4WZ3"
+			"ChNtEZZW1dg8oaIH4Voi8gkSVSeLkMw3Vz6fzBcYia17x+dxPpYO+3xJiS6jEQJbqQy+Nh6gJj2x"
+			"PKvGpk2Y8BdD2hUYhGpQmeR29tvJMWKjPo+jATfVj4y8gBRCfoxPr6SYwAifj7ALMlO+sr1qH5S+"
+			"fpTTP9WMJhTpW2LkbypNSR6vbeCa7j/nZ+2MFcDpmJjmfX8/1hl9pdDdf24Lb0Y+KB1qbZV9SWGc"
+			"dRK24Ca5mKg2Pzqzcsrz4qsthQC8/jhe0eHpDbO0CC76gldjf1x5hng5VC/j5t1L9jMZx7eskJzI"
+			"s4gHslQgTRD5oYnLhWwAXAwPjmtabgl/nNVJXekqSDLNz1bEoZDwe0l5Gw/D72oJjiZgnE12pv/i"
+			"CPc+MoDHODRg96d6v0otdK1wRGheXeLMtiEXw3Vz704eGPRxJupLvqu614pXpjeu2awjvX+Ik1sN"
+			"+UxwPnQkePQWXj4IZGYwrUxEbGxq5ly+jx2SfNhTH03bzmKYnvTC8ES2kvt1af17iJCdDAPVcO9c"
+			"rvgNEPqoj1pTjG9hplthqWVCWs8q3T8wwWrAaJeICMbfrBI3pDLDCRV/UFiXeIXVYtVMqHcftHXX"
+			"Chyeo+EeqEYXscZBHgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAgZAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA"
+			"BhQAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAgZAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAQAAAAAAAAABhQAAAAAAAANAAAAAAAAAAAAAAAAAAAAAAAAAAgZAAAQAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAABAAAAAAAAAAAAAAQAAAAAAAAABhQAAAAAAAAOAAAABQAAAAAAAAAAAAAAAAAA"
+			"AAgZAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABhQAAAAAAAAPAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAgZAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAg"
+			"AAAABhQAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAgZAAAMAAAAUAQAAEAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAMAAAAAAAAABhQAAAEAAAARAAAAAAAAAAAAAAAAAAAAAAAAAAgZAAAMAAAAAAAA"
+			"AEAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAQAAAAgAAAAARQAAAEAAAASAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAgZAAAEAAAAKAEAAMcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAABhQAAAEAAAAT"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAgZAAAMAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA"
+			"AAAAAAAABhQAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAgZAAAEAAAAAAAAANgAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAQAAAAAAAAABhQAAAAAAAAVAAAAAAAAAAAAAAAAAAAAAAAAAAgZAAAQAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABhQAAAAAAAAWAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAgZAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABhQAAAAA"
+			"AAAXAAAAAAAAAAAAAAAAAAAAAAAAAAgZAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAQAAAAAAAAABhQAAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAgZAAAQAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABhQAAAAAAAAZAAAAAAAAAAAAAAAAAAAAAAAAAAgZAAAQ"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAPsBAACwDKkc+wEAACCeOQj7AQAAIJ45CPsBAACwrKgc+wEAAPClqBz7AQAA"
+			"IJ45CPsBAAAgnjkI+wEAACCeOQj7AQAAIJ45CPsBAAAgnjkI+wEAACCeOQj7AQAAIJ45CPsBAAAg"
+			"njkI+wEAACCeOQj7AQAAIJ45CPsBAAAQ4o0d+wEAABDijR37AQAAEOuNHfsBAAAQ640d+wEAAHD7"
+			"qBz7AQAAcPuoHPsBAACQ8o0d+wEAAJDyjR37AQAAIJ45CPsBAAAgnjkI+wEAACCeOQj7AQAAIJ45"
+			"CPsBAAAQ16gc+wEAABDXqBz7AQAAMLU5CPsBAAAwtTkI+wEAAGDXjR37AQAAgNOoHPsBAAAgnjkI"
+			"+wEAACCeOQj7AQAAIJ45CPsBAAAgnjkI+wEAACCeOQj7AQAAIJ45CPsBAAAwFKkc+wEAADAUqRz7"
+			"AQAAwOCNHfsBAADA4I0d+wEAACCeOQj7AQAAIJ45CPsBAADA140d+wEAAMDXjR37AQAAIJ45CPsB"
+			"AAAgnjkI+wEAACCeOQj7AQAAIJ45CPsBAABg+agc+wEAAGD5qBz7AQAAEPKoHPsBAAAQ8qgc+wEA"
+			"AJCxqBz7AQAAcLmoHPsBAACg9agc+wEAAKD1qBz7AQAAIJ45CPsBAAAgnjkI+wEAALDbjR37AQAA"
+			"UMSoHPsBAACgBKkc+wEAAKAEqRz7AQAAIJ45CPsBAAAgnjkI+wEAAMDwqBz7AQAAwPCoHPsBAACQ"
+			"C6kc+wEAACCyqBz7AQAAIJ45CPsBAAAgnjkI+wEAACCeOQj7AQAAIJ45CPsBAAAADqkc+wEAADAO"
+			"qRz7AQAA0KeoHPsBAADgr6gc+wEAAIC+qBz7AQAAENSoHPsBAAAg5agc+wEAACDlqBz7AQAAcPGN"
+			"HfsBAABw8Y0d+wEAAPDnqBz7AQAA8OeoHPsBAACwFakc+wEAADD2qBz7AQAAIJ45CPsBAAAgnjkI"
+			"+wEAACCeOQj7AQAAIJ45CPsBAACw3o0d+wEAABC5qBz7AQAAIJ45CPsBAAAgnjkI+wEAACCeOQj7"
+			"AQAAIJ45CPsBAAAgnjkI+wEAACCeOQj7AQAAIJ45CPsBAAAgnjkI+wEAAMCiqBz7AQAAQPioHPsB"
+			"AABQ/agc+wEAAFD9qBz7AQAAIJ45CPsBAAAgnjkI+wEAAPDAqBz7AQAA8MCoHPsBAAAgnjkI+wEA"
+			"ACCeOQj7AQAA8BGpHPsBAAAA1agc+wEAAJAdqRz7AQAAkB2pHPsBAAAAuqgc+wEAAAC6qBz7AQAA"
+			"MAupHPsBAADQtqgc+wEAACCeOQj7AQAAIJ45CPsBAAAgnjkI+wEAACCeOQj7AQAAUOqNHfsBAAAQ"
+			"7o0d+wEAACCeOQj7AQ=="
 		)
 	)
 	(image
@@ -11695,7 +11798,187 @@
 			"UABMAFQAYgAwADEAUQBZAEEAUABHAHEAcABVAG4AeABCADgAYgBDAHAAZgB2AE8AagBDAEQAeQA0"
 			"AC8AZAAxAHQARwAxADYAOQBaAC8AKwBtAC8AKwBhAGMAagAyAHYAagBqAEYAeQA1AGEAYwB0AHAA"
 			"SgBNAGYASQB4AEoAMgB4ADIAQwBGAFAAMABpAGwAcgBKAHEANwA3ADMAaABLAG0AVgA2AFIAZgBP"
-			"AHEAawBJAFMAMQBIAE0AawBQAEwAcQBkAGoAVgBXAA=="
+			"AHEAawBJAFMAMQBIAE0AawBQAEwAcQBkAGoAVgBXAGQAcgBWAFMAbQBMADEANQB5AHcATgAyAEUA"
+			"dgAzAE8AMAA3AE4AbAA1AGkATwBKAE4AZwBQAEsATwBQAFYAOAAwAFEAbQA2AEgAOQBpAGoANQB0"
+			"AGcAKwBGAFEAcgB4AG8ASQBKAHQASgA3AHAAVAA3AEIAcgBZAFAAMQBMAE0ANwA3ADkAMgB3ADYA"
+			"cwBHAEgAWABOAGYARQBnADYAZABPAFcAagBMADMAdABHAG0AbgBuAG8AeQBXADkATgB6AGUAYgB4"
+			"ADgAQgBKAEYAQQBMAG4AMgBoAHoAWQB0AHIAZQBCAFYAYwB0ACsATAA2AHcAagBDAGcAUwBiAHoA"
+			"VwAzAEUAawBXAFEAdwB2AFgASgBsAFAAWQBPAHIATABDAGcANgBOAFcAQgAzAG4AcgBXAHMALwBM"
+			"AE8AZQA5AGMAOAArAFIAVABTAGEAcgBQAFoAbgBEAFAAegA5AEsALwA5ADEAWgBjAG0AcABhAFkA"
+			"RwBoAFcAVABVAFMAaAA0AFEARQBNAE4AMgBHAHoANQBpAFEAbQBkAG4AVgAzAHMAYgBCAGgATABO"
+			"AEEAUQA3AEUAQgBKADcAYQBYAG0AMgByAHAAcgBIAEoAUwBPAEkAUwBTAGoARwBKAG8ASgBtADcA"
+			"RQBJAEoAbgA3AG4AWAA1AGQAYgBmAGQAdgBmAEcAeABmADEAUABZAHMAKwBiAE4AKwB0AEoAZgAv"
+			"AE4AawBoAFYAZAA5AFMAcQBOAHMATABWAEIAZQBVADgAdAB5AG4AeAB1AFoAdQA0AE8ARABPAGoA"
+			"dgBGAHQAMQBTAHkAWABIAE4AWQBpAEMAaAA1AFIAVgBNADAAQwBlAGcAQQBmAHQANwBHAE4AOAAy"
+			"AFkAOQAwADYAeABLAE4ARwB2AFcARABMAFoAVABmAHIAbgBsAFYAaABFADEASQBFAE0ARQBPAEEA"
+			"VABBAGMAWABBAGUAZwBzAEgAZQB2AHIARAA1AGwAZgA0AG8AcgBpAGcARABzAEoAVgBLAGwAbQBW"
+			"AFYAaQBtAEEANABiAHoAWQBiAHYAcQBsAEIATgBMAGoASQBjAEoASgBVADIARABrAGkAdABGAHYA"
+			"VABmAGYAQgBCAEIAeAAxACsAZQBCACsATQB1AEcAQgBvAFcASABvAEEASgBMAE4AbgB6ADUAbwAz"
+			"AGIAdwA2AGMAdQAvADUAcgBYADAAMQBHADMATABIADkAMgAzAHIAZQBjAGYAZwA3ADMAbgB2AHEA"
+			"YQBhAEwAZwBhAGoAWAB1AEcAaQBkAGUAYQA5ADMAagA2ADYANgA1AFEAKwBhAG0AOQBjAE4AYgBL"
+			"AEwATwB5ADMAOABjAGUAQwArAGkAcwBNAEsAcABSAFUARQBsAC8ARQBKAEUAcwBUAFoASgBtADMA"
+			"cwA5AEEAWQBtAHAATgBOAEsARQBoAHAAUwBpAGcARwBRAE0ARQBIACsAQgBTAGEAMgBFAEkAQQAv"
+			"AGwATwBVAHIATgBTAHQAQgBCAEQAdwBhAG8AZwBrAFIAMQB4AGMARwB0AFYAcABnAEEAUQBPAEUA"
+			"eAA2ADkANQBGAEwAMABtAFgALwA4AHIAVgB2ADMASAByAGQAZABhAGUAZgBQAHYAMgBkAHgANwA0"
+			"AG4AYQBhAHUAbABhAFQAVgB6AHoAYQBaAHIASwBrAEoANwBXAHoAdABsAGUAWAA5AFAAZgAzAHUA"
+			"MQBnADAAUwBZADIARABYAHIAUQBVAFIAVQBsAGMAbQBOAEcAQwBSAEYAbABBAEwAaQBPAFAAWgBa"
+			"ADcAawBWAGEANAArAGQAdQA4AHcAMwA3AFMATwB6AFMATgBZAFYAMwB4AGQANwBkADgAegBCAFkA"
+			"awBDADgAVgBvAGsATQA4ACsANwAwACsAYwBWAFoAbwA3AGwAegBmAEEATwBvAE4AVQAwAGwAdABM"
+			"AGoAVQBnAE0ATAAvAG0AQQBGAEcAVwB0AEEAUgBjADUAUAB0AFoASQBTAFMAZQB5ADEATgBRAFYA"
+			"UgBvAEIAeQAwAGIAUABaAFQAdQBlADMAVgBqAGsAYQBuAGIAKwBkAFoAZQBmAEcAcwBtAG4AMABW"
+			"AEcAMwB3AGEAagA3ADgARQBDAEsAZgBRAC8AYwBNAE0AVQBTAFYAbgA3AGoARwAzAGQAZQBkAHcA"
+			"UABhAE8AZwBLAHMAVQBZAEIAOABnAEEATgBFAHYAVwA5AFAAMgAxADIAagBBAGMAQQB4AGwAQQBR"
+			"AGEAYQBpAGIAdQBxAG4AUQA5AC8AOQBLAFcAeQA3ADcAdwBoAFkAVwBYAGYAMABpAHIATgBxAE4A"
+			"QwBlAFUASwBOAEEAWQBBAEEAVgBnAEcAcABzAE8AVwBHADgANQBsADYARwAxAGsAQQBCAHUAcgBG"
+			"AG0AWgBvAGwAaABUAGkAbgBHAG0ASgBpAEUAagBGAEsAaABwAGkAZABnAG8AbABFAFcALwB4ADIA"
+			"UgByAEgAKwBJAGwARQB5AHEAaQBxAFEAUQBGAEEAVwBTAG8AeQBUAG4AQgBXADIAbABvAEkAWQBs"
+			"AFIAUwA1AEQAbgBSAFUAawBVAGEAdwBGAGsASwBtAGEARgBtAG0ARQBTAFkAdgByAFEASQBwAGwA"
+			"YwBoAEoAQQBQAGoAZwBBACsAdgBrADkANwA4ADMASQBEAGoARABBAEkAcwBYAFkANgBKAGkAdgBt"
+			"AGcASgBRAHcAbQBLAHEAUQBWAGcAMgBYAGYASABxAAAXAyEAADEgAAAWCAEXAyEAADEgAABRQAAA"
+			"BAAAAIFgAAAAAAAAAACAP41gAAAAAIC/AACAP4FgAAAAAAAAAAAAAI1gAAAAAIC/AACAv4FgAAAA"
+			"AIA/AACAP41gAAAAAIA/AACAP4FgAAAAAIA/AACAP41gAAAAAIA/AACAP4FgAAAAAAAAAAAAAI1g"
+			"AAAAAIC/AACAv4FgAAAAAIA/AAAAAI1gAAAAAIA/AACAv2IgAAACIQAAFggAFwIhAAAgQAAAAQEB"
+			"AS2gAAAAAAAAAAAAAOUFAABjAwAAAgjAhAkI4Q0ICOILHGAAAAIDAAADAwAAqUAAAAAAgD9bQAEA"
+			"PxwAAAAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAOA/UUAAAAEAAACMwAAASxwAAAAAACC3"
+			"c55BzGzILbGltMGMwAAAURwAAAAAACC3c55BzGzITQr6vkGMwAAAVxwAAMxsyPXvMrLBAAAAQLKo"
+			"lEGMwAAAkboAAGY25MJltsBBAAAAQLKolEFiIAAACNAAAJi6AAC4OAGM/////wMAAACcugAABtAA"
+			"AJ66AAAGAAAAAAAAALDpj30GAAAABFABAKS6AAC4OAGM/////wYAAAAAAAAAYL93avl/AADE6Y99"
+			"BgAAABYIARcxIAAAAcEBALC6AAAAAAAAAAAAAAAAAAAAlJdAAAAAAAAYi0AAAAAAAAAAAAAAAAAA"
+			"ALBAAAAAAAD+r8D0ZAAAQI0AAAEAAAAwIAAAM0AAAOCMAAAwIAAALaAAAAAAAAAAAAAAygsAAMYG"
+			"AAA0oAAAAAAAAAAAAAAAAAAAAAAAACVAAAAARQAACQjhDTJAAAAAHQAACAhxCx8IAQIICOILHGAA"
+			"AAIDAAADAwAAFggAF/5ABADhrgAAdnLQLfBe4z4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAHZy0C3wXuM+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAAAAAA"
+			"AAAATvXAs+odhMCMnLxFgcR5wAAAAAAAAPA/AAAAAAAA8D+pQQAAAQAAAKxhAAAFAAAApHPTR62B"
+			"AAAEAAAAabitOsQtFzusYQAAAwAAAAAAAECtgQAAAAAAAGm4LTrELZe6qUEAAAAAAAACCMCE9GQA"
+			"AECNAAAAAAAAMCAAAC2gAAAAAAAAAAAAAOUFAABjAwAALaAAAAAAAAAAAAAA5QUAAGMDAAA0oAAA"
+			"AAAAAAAAAAAAAAAAAACAPyVAAAAARQAA9GQAAECNAAABAAAAMCAAADNAAADhjAAAMCAAAC2gAAAA"
+			"AAAAAAAAAMoLAADGBgAACAhxCxgIdIAYCHaABWAAAFMAaQA0ADYAdQAxADUAWQB2AG0AMwBiAGoA"
+			"cQByAG8ALwA5ADYAWgArAHcANABwAHoAWgBzACsAZQBjAE4AaQAyAEMASQBzADgAUABuAHoAUwBK"
+			"AE8ARQBxAEMASABEAFoAeAAwAGsAbgB2AGYAaABjAHoARwBTAEkAWQA5AG8AeQAxAGEAMQBmAC8A"
+			"OQBJAG0ASABaADUAMAB5ADcAZQBxAHYAZgBHADEAUwAxAHcAUgBwAFoAQgB3AEMATQBVAHYAdwBH"
+			"AGgAdQBxAFYAawBJAFMAOQBRAGUAeABVAFQASgBzAEQARQBrAE0AQwBKAFMATgBaAGYARgBlAHYA"
+			"SwB0AHgASQBvAEwAYwBlACsAZABDAEYARQBYAEcAeABEAEwAeQBlAFIAZwBCADQAUQB2AGEAVABT"
+			"AEEATwBoAEkANwBPAGMAZQBnAGIAaQBFADAAbABaAEUARwBEAG8ANABRAG4ASABYAHAASQByAGQA"
+			"YQBoAHEAcQB3AEsATQBzAEoARgBsADYALwA4AFEAUQB0AFgAawBFAGgAcABIADgAWQBGAFgAWQA5"
+			"AFkAbQBZADIASQB5ADUAMABMAEEAVgBFAFUAZwBWAFYAQwBVAEIARwBJAFcAbQBPAHkAcgBCAEgA"
+			"SABEAEIAOAA0AGoARwBDAGUARgBzAHUAeQB2AFUAUQBHAGIAOABYAHkAaABzAHMAOQBLAHcAQwBK"
+			"AHEAdwBtAEkAZwBMAHoASQBCAGIAWQBxAGIAQQBVAE8AZQBQADEASABKAHkAWQBvAFkAbwBkADAA"
+			"NQBiADMAMwAzAHYAZgBRAGoAegA1AHcALwBQAEYALwA4AHIARQBQAFQAeAAzAGYAWQBSAE4AKwBx"
+			"AGEAZgAzACsAcgBzADIAUABQAGoAVQBEAHkAdAB4AE8ARwAvACsAbgBCAFIAMQBoAGcAQgB4AGMA"
+			"VwBCAEcAQgBEAHoASQBLAGsAdwBDAEEAMABDAFUAdQBOAFcAUgBQAHYASgA0AFMAbgBEAGoAdwBT"
+			"AC8AMwA5AE8AWQBoAFgAegBUAG4AcABDAFYAbgBuAFgAWAB3AHgASQBNAHIASgBzADIAQwA2AHgA"
+			"bABvAFgAbgAzAGoATABUADQAYgA3AE4AbQArAHYAVwB0ADgAdAB5AGwAUABYAEEAeQBnAEMASABI"
+			"AEoARAB2AGUAbABYADIAZQBCAGIANABwAFQATAA2ADgATwB0AGIARABPAG0ASwBKAFMAagBXADUA"
+			"YgB2AGYAYgB1AGQAZQB1AGcANwBwAEoAbAA1ADUAeQA3AGMARgA2ADMAOQBSAGEARABRAFAAUAB3"
+			"AEsAVABWAEIAbgBCAEIAYgBZAHgAVgA2ADEATgBRAEwAbABFAG0AUgAvAEgAagBvAHEAUgA4AGYA"
+			"OAB1ADcAMwBMAHAANAA1AFAAUQBGAFYARQBjAFcASQBVADYATwAyAHUALwAyAHEAegAvADcAeABu"
+			"AFcAdABXAC8AdQByAHAAMwB4AHcANgB2AGoAcwBxAG4AWgBWAFIAcQBGAGEAVgA1ADYANQBjAG0A"
+			"SgBsAGcAMgBFAEwAcgA5AFkAUwBGAGYARwBqAFoAOABuAE8AWABMAFEAZABTAGgAbABUAFIAYgBJ"
+			"AGMAQQAvAFUAVgBEACsAbQBtAG4ASABxACsAUwBSAFAAQQBNAEMAaABMAG0AbgBIAFMAOABnAGcA"
+			"UQBPAHcASQB6AHAAWgA1AHcAMgBmAFgANABUADEAYgA2AFEAcwBZAG0AcgBvAEUANwAwAEEAWABW"
+			"AFkAWQA4AHoAdwBXAE0AcgBLAEIAWQB0AEkAUwBGAHIAVQBZAEEARwBnAGgARQBBAGcANQBhAEgA"
+			"NQB3AHoAUABVAGsATABCAGQAOABiAEcAUAByAEwAbgA5AHIAagB0AFgAcgBwAHkANwBZAFAANgBV"
+			"AGQAeAB3AEcAWQAwAFcAQwBkADIANwBoAG8AZwBVAEwARgB5AHkAQQBlAEkAaABBAEYAZAA0AGoA"
+			"cQBVAEEAVgBxAFQAMwB2ADgAaABYAG4AZgBlAHoASwBsAHUAdQBzADgANQBaAHkARgBRAFkAeABH"
+			"AHcAWgBZAHoAWABEADMAbgBNAEgAYgAzAFYASwB2AEkANABUAFEAMQBsAGIAbABQAEQAeQArAGUA"
+			"bwBPAEoAegBTAG4AbgBMAFgAUQBSAGoASABDAEwAYgBMAEMAcgA3AHEAZQBoAGMAVgA1ADUATgB6"
+			"AG4AMgBOAHgASwBOAEQAWQBFAFMAagBDAEEASgB2AFgAYgBhAEIAdQBCAEMAWABKAHkAMAAvAEcA"
+			"SABvAHMAQQA2AHcAKwAyAE8AZgBBAHoAZABFAFMAaQBJAEIAbwBxAEoAQgBSAG8ASwBiADMAUwBQ"
+			"AGwAOABvAFAARQBwAEcAeQBZAEkAUwBLAE8AUQBEAGEASwBHAHYAMwA5AGIAYQBZAGQAYgBwAEEA"
+			"TQBXAHgARQBEAEkAaQBMAHkAbwBaAE4ATgBIAGkAUwBIAHkANwAxAEwATwBRAHEATgBwAGwAcABF"
+			"AGgAcQBZAG0ANgBlAEIAZwBBACsAcQBzAEoAVABIAGsAVgBGAEoAVgBBAHgAVgBWAFYAagBIAEMA"
+			"UgBtAEMARQBJADQASgBGAGsAWgA4AFUAQgBwAGgAcwBWADcAVQB5ADAATgAvAC8AcwAwAGMAZQBl"
+			"AGYAeQBPAFcAdwBlAGUAZQA5ADUAdAA3AFIAOQBvAMWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs"
+			"0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs"
+			"0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs"
+			"0MWsfnpyVFRUVFRUVFRUVFRUVFRUVFRUVFRUVFRUVFRUVFRU0MWs0MWs0MWs0MWs0MWs0MWs0MWs"
+			"0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs"
+			"0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs"
+			"0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs"
+			"0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs"
+			"0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs"
+			"0MWs0MWsz8Oq0sexAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAz7+fz8as0MWs0MWs0MWs0MWs0MWs"
+			"0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs"
+			"0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs"
+			"0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs"
+			"0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs"
+			"0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWsfnpyVFRUVFRUVFRUVFRUVFRUVFRUVFRUVFRU"
+			"VFRUVFRU0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs"
+			"0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0MWs0DQAOABJAFIARgA0AGgAUwBWAHcAOAArAEEA"
+			"TQB4AGkAbQA4ADYATAAzAHQANwA0AFEAZwBzAEUASwBZAEkAOABEAGEASgB5AG8AYQBhAFEAbQBD"
+			"AHAAbgBOAGcAQwBvAEIAaQB4AE0AQgB0ADkANgBSAG0AQQBJAFEASABRAEMASABsAGIAbABGAFkA"
+			"UABuAFQAcgB4AGsATQBsADMAWABuAC8AegBEAHoAYwA5AGEARgBSAFkAUgBSAEMAdwB3ADUAZQB1"
+			"AHUAOQBoAEkATQBUAHMARwBZAHMAZABNAFEAQgBUAEEAaQBpAGgATgBCAHMAbQB2AHUATwBvAHoA"
+			"bgBvAEkAbgBWAGkAMwB1ACsAOQBZADkAWABIADcAOAByAFYAOAB0AGwAWgBpAG0AYgBCADEAUwBF"
+			"AEwAUQA0AFYAaQA1AGQANABJAHoAQQBxAEIAbgBpAFcARQBrAEwANABRAHEATgBWAEoAMwBCAHkA"
+			"QgBXAGoARQBMAGgAWQA5AHcASQBpAHEAawBNAG8AdwBCAFQAMAAzAGcASQB4ADcAWABUAHUAbwAz"
+			"AHQAdgBTAFIASAA2AEcAeABFAHgAVgBXAHkAMQBtAHYAegBrADEAbABYAGEAMQBYAGIATQAyAFgA"
+			"TgBOAFcAeABMAHkAcwBEAE8ARwBvAEoAWgB2AG4AVgBEAGgAWgBLAEoAYwBHAEMAbwB6AG4ASgBF"
+			"AEEARwBDAG0AKwBBAEkAVwBvAGwAWQBKADEAQgBRAEMAaAAwAEsAOQBvACsAZQByAEkAVQBOAFAA"
+			"SgBhAEsAUwB5AE0ANgBUAGIARQBXAGIAcABpAEgAOQAzAGoAaABHAHYAYQA2AEcAegBVAE8AUQBG"
+			"ADkAbQBHADgAKwA3AHYARQBQAGcAZAB1AG0AQQBoAGUATwBnAHgALwAvAHUATgBYAG4AdgBTAHgA"
+			"VAA0AEIAcwBTAGYAeQBVAEQASgBJAGoAcQBXAEsAZwBpAGUAMQA5AEsARQBpAGwASgBBAGcAZQB6"
+			"AHEARQAyAFkAZABPADMAcgA0AFkAWAB5AEEANABJAHQATABXAFkAVQB5AFkAaQBRAEsAdwBwADAA"
+			"dQBOAGMAQwBzAG0AUQBNAGgAUQBFAE0AbwB3AEEAZwByAEIAQwBWAFkAcQBKAE4ARwBEAEgAYgBZ"
+			"ADMAYwA3AEoAQQB4AHUASwBLAFEANwBoAE0AQQBYAHYASwBrAFcAawBWAC8AdwAzAFoAMgBqAEQA"
+			"LwB5AGMAQwBTAFIAUwBpAGcATABUADIAaQBCAEcAeABwAG0AQgBBACsAMQBzAEIAYgBQAE4AdAB2"
+			"AG8AdQBPAG0AbgBXADIAdABLAG0AbwA2AFcAMwBWAEMARwBPAG4AMwArAGcARQBPAG8ANABHAEUA"
+			"egBBAEQAQgB5AHoAVwBwAHQARQBmAHEAYQB1AFUARgBOAEMAOQBZADMAQQB6AHoAZwBzAGsAcwAr"
+			"AC8ANQBtAGoAUABuAGwAWgA4AFMAVQA5ACsASQAxAC8AdgBIAC8AOQBoAHMASwBWAEUAQQBJAFkA"
+			"QgBCAGEARABqAEEAQQBTADMAMwBxAGsAYgBWAEUAawBMAE0AQwBMAGsATABiAEkASQBtAEEAUQBL"
+			"ADgAcQBLAFMAWgBuAGoATABXAGIAaQA0AGQAbgAzAHoAWgBnACsAWAByAE0AUQBzADQAZQAvAGoA"
+			"bQAzADcAZwBBAG8AOABRAHgAVgB4AGUAcwArAEcAOQBiAC8AWQAxAGoAagAyAGwATwBuAHYAUABm"
+			"AEsASQBSAEwASgBPAHkAaQBzAEUAagBtAEkAcQBkAE0AcQBBADQAVgBSAFcAdQBRAEUAWgB2AGIA"
+			"VwBkAFIAMABZAFoAKwBwACsAQgBEAGIAQQByAFYANgAxAEQAcgBlAHUAdwA0ADAANwBtAHAASgBy"
+			"AEUANgBJADYAcgA3AGYARABzAEIANgByAFcAQQB6ADQAUQBCAEkAaABhAGUAOQBqAHAAVAB0AC8A"
+			"MQBZAHYAVQB0AGgALwAwADcASAB1AGMASQBIAHYARQBvAHQAcwBkAE8ATQB2AHgAQwBnAEoASwAx"
+			"AGsAVABXADIAcAB6ADYAUQB4AGoAYQBLAEkAeQBNAG8ANQAyAEIAcAB6AGMAUgBqAFcAVgA3AFQA"
+			"MABGADcASwBqAEIAdwBZAE8AVABRAFEARgB6AFAAbAB2AHMAQwBvADIARgAzAEgAYwBsAEEAVgBn"
+			"AGsAQwBoAFQASwBIAGcAcQBaAEMARgBDAGEAbwBLAEIAQwBZAEEAMABwAEsAcQBLAGcAYgBuAFgA"
+			"ZQByAE4AUwBLAHYAbQB3AGwATABtAHoAdwBSADUAVwBkAGsAZABiAHAASQBmAHcAOQBPAHEAVABD"
+			"AHIASQBHADQAMgB0AEwALwBmAG4ARAB2ADAAbgAyAEIAZABlAG0AbgBqAG8AdwBkAGoAeQBTAGoA"
+			"cQB1AFUAMAB5AGEANwArADQATABLAGMAdwBXAGwAQQBOAFIASQBKAGcAUgBLAFYANABCAFYASQBW"
+			"AEUAUwBlAEUAeABnAGwASQBhAG8ARgBSAFcAZgBJAGMANABoAGEAbwBRAFEAMABvAGcAWgBkAFAA"
+			"eQBVAG4AMQBUAGEAQQBsAGEARQBwAE0AUABzAE0AcgBVAHYAZwBWAHUAQQBFAFIASgBKAFQAUQBH"
+			"AEgAZgBNAHIALwBZAE4AcQB1AFcARwA1ACsATQBvAFMAMQBZAEYAUQBkAEUAaQBCAEMATwBSAHMA"
+			"OQBJAE4AVgA5ADkAeAA0ADIAeAAzAGQAYgBSADIAUgA4AHQAeAA1AGMANQBmAE8AWAAzAEIAVQA5"
+			"AHkAVABOAGMAaQBYAHYATQBoADkAWABLAGsATABrAHYAWABQAE8AeABUAFkAaQAwAGwAMwBWAHAA"
+			"SQBzAHEAcgB3AFUAZwBWAEQAYQBwAFYAZwBTADAAcABhAC8AeAAvAFAATgBQADMAWABsAFAAUgAx"
+			"AGYASABpAFgATwBtAFoAegBaAHYAMgBsAHEAVwBEAGMAWQAyAFoAUQBVAFQANgA1ADcAdQAwAGUA"
+			"SgA1AFMANQBKAGsARAArAC8ANwBRADQAOABkAHIAMgBPAGwAVwBwAEcAKwBKAHQAZwBJAGcAUgBN"
+			"AEQAbwB5AEsAZQA4ADcAeQB6AHYAZQBNADMAdgAvAGkAUAAvAHEAZABmAGEARAArAG0AQwAvAC8A"
+			"NgA4ADgAMAAvACsAOAA4AHcATQBHAGcATgBGADcAYwBEAEsAUQBWAEsAcgByADUAbgB6AFkAMQAz"
+			"AHIAZQAyAHEAdABZAHQAVABGADMARABaAHUAWQB1AHYAVwBEAEsAcgAzAFIAaQBwADYARAAvAGYA"
+			"ZQBQAE4AdAA5AHoAMwBnAEsAVwBZADIAawBXAGEAWABMAEoAegAzADgAZQBXAFgATgBoAEYAVwBy"
+			"AGIAcwA3AHIAYwBUAG4AegBKADcASABwAEkAegA0ADUAagBYADMAZABYAGUAUABPADIAdgBhAEIA"
+			"KwB6AHIAOQBhADEAOABxADAATwBVAFIASwB3AGEARQBOAFIAMgBSAE8AYQBQAHoAbAA5AHkAMQBT"
+			"AFgAbgBaAGMARAAzAGIAcgBqAHQAQwAzAC8AKwBWADAAaQByAGwAYwBtADEAcwArAGQATQB2ADIA"
+			"RAA2ADYAVgBQAFQAbQBNAFUAWgAxAHQARwBaAC8AZQBFAEoAZQAxAGMASQByACsAdwBwAFkAdwBq"
+			"AGcARABkAHoANABxAHYAbgA4AEYAZQBkAGQAZABjAFUAbABRAEcAMABRACsATgA3AE4AdAAvADMA"
+			"RgAzADMAdwAxAGMAMgBIADIARwBkAE0AdQBXADMANwBPAE8ANwB2AFQAQwB0AHoASQB6ACsALwBi"
+			"ADUAUgBRAEEAWgBhAFcASgBTAHUAegBDAG8ANQBUADAAeABoAEIARQBSAEsAUwBpAFgAcABVAE4A"
+			"MgA1AFkAYQByAHIAQwBDAFQASQB2ADEAdABVAHYAVABuADUAMQA2AGcAcgBSAFYAMgBIAEQASwBo"
+			"AGkAaABPAEsAeQBnAE4AMQBFAFMAVQBkAHUAdgBXAP////8AAAAAAAAAAAAAAAABAAAAAAAAAP8A"
+			"AAAAAAAAHwAAAAAAAAAAAAAAAAAAAAAAAAAAAAEASBeKtf9/AAAaAAAAAAAAAACkTwj7AQAAiFxV"
+			"GvsBAAAAAAAAAAAAAAAAAAAAAAAAcKRPCPsBAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAA0KA5CPsBAADAoDkI+wEAAEBFTwj7AQAAAQAAAAAAAADQoDkI+wEAAMCgOQj7"
+			"AQAAYEVPCPsBAAABAAAAAAAAAA4AAACiAgAAAAAAAAAAAABgHgAAAAAAAAAACAAAAAAAcJJKOfsB"
+			"AADgAgAAAAAAAHCwVBr7AQAAAAAAAAAAAABwsFQa+wEAAFpLU7X/fwAAAQAAAAYAAAAIAAAAAQAI"
+			"AAimTwj7AQAAAAAAAAAAAAAAAAAAAAAAAAAAAACHAQAAAAAAAAAAAAAAAAAAgA4AAAAAAAAAAAAA"
+			"qEKKtf9/AAAAAAAAAAAAAP////8AAAAAsKVPCPsBAACIcFUa+wEAAAAAAAAAAAAA/////xAAAAAA"
+			"AAAAAAAAAOAoibX/fwAAAQAAAAYAAAAYp08I+wEAAHhsTwj7AQAA0GxPCPsBAAD/////AAAAAAAA"
+			"AAAAAAAAAQAAAAAAAAD/AAAAAAAAAB8AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAOAQhTr7AQAAAAAA"
+			"AAAAAAAIKYm1/38AAAIAAAAGAAAAGKdPCPsBAACwpU8I+wEAAAimTwj7AQAA/////wAAAAAAAAAA"
+			"AAAAAAEAAAAAAAAA/wAAAAAAAAAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQBIF4q1/38AAB4AAAAA"
+			"AAAASKZPCPsBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC4pk8I+wEAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAIBAAAAAAAAAAAAAAAAAAAAAAAAAAAADQoDkI+wEAAMCgOQj7AQAAgEVPCPsBAAABAAAAAAAA"
+			"ANCgOQj7AQAAwKA5CPsBAACgRU8I+wEAAAEAAAAAAAAADwAAAKMCAAAAAAAAAAAAAHgeAAAAAAAA"
+			"AAAIAAAAAADQkko5+wEAAOECAAAAAAAAcLBUGvsBAAAAAAAAAAAAAOAoibX/fwAAAQAAAAYAAADI"
+			"qE8I+wEAALClTwj7AQAACKZPCPsBAAD/////AAAAAAAAAAAAAAAAAQAAAAAAAAD/AAAAAAAAAB8A"
+			"AAAAAAAAAAAAAAAAAAAEAAAAAAAAAOAQhTr7AQAAAAAAAAAAAAAIKYm1/38AAAIAAAAGAAAAyKhP"
+			"CPsBAACwpU8I+wEAAAimTwj7AQAA/////wAAAAAAAA=="
 		)
 	)
 	(label "DATA_4_SOCKET-"
@@ -11719,7 +12002,7 @@
 		(uuid "029c6423-4f54-416d-98d0-757145e3dac3")
 	)
 	(label "ESP_USB_DATA-"
-		(at 260.35 113.03 0)
+		(at 260.35 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11729,7 +12012,7 @@
 		(uuid "052f8acc-cde5-48ed-84d5-15121556884d")
 	)
 	(label "DATA_2+"
-		(at 260.35 102.87 0)
+		(at 260.35 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11739,7 +12022,7 @@
 		(uuid "0637d2c6-50bb-4092-9bd2-ea083625eb05")
 	)
 	(label "DATA_4_SOCKET-"
-		(at 260.35 128.27 0)
+		(at 260.35 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11809,7 +12092,7 @@
 		(uuid "29ca55fc-7719-4939-a543-23e6de8fd4fc")
 	)
 	(label "DATA_2-"
-		(at 260.35 105.41 0)
+		(at 260.35 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11979,7 +12262,7 @@
 		(uuid "646f6a6b-5140-44b4-870a-6565ff639ec5")
 	)
 	(label "ESP_USB_DATA+"
-		(at 260.35 110.49 0)
+		(at 260.35 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12029,7 +12312,7 @@
 		(uuid "76e70567-22e0-4c92-a892-9233ed73e075")
 	)
 	(label "DATA_4_SOCKET+"
-		(at 260.35 125.73 0)
+		(at 260.35 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12148,7 +12431,7 @@
 		)
 		(uuid "99947661-d42a-4ba1-893e-7aab1554c346")
 	)
-	(label "GPIO9"
+	(label "GPIO7"
 		(at 39.37 41.91 0)
 		(effects
 			(font
@@ -12188,8 +12471,8 @@
 		)
 		(uuid "a786b253-08c8-4b10-85bc-c85383d66ff6")
 	)
-	(label "GPIO9"
-		(at 20.32 82.55 0)
+	(label "GPIO7"
+		(at 20.32 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12229,7 +12512,7 @@
 		(uuid "bfdff3dd-3f0b-45ac-808b-f108b3cbf2c2")
 	)
 	(label "DATA_3_SOCKET+"
-		(at 260.35 118.11 0)
+		(at 260.35 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12268,7 +12551,7 @@
 		)
 		(uuid "c8d687a0-3554-46f5-ba62-8ad2561c7aa6")
 	)
-	(label "GPIO4"
+	(label "GPIO3"
 		(at 163.83 67.31 0)
 		(effects
 			(font
@@ -12299,7 +12582,7 @@
 		(uuid "d0efab5a-c0e9-4c66-b4ed-985d81619569")
 	)
 	(label "DATA_3_SOCKET-"
-		(at 260.35 120.65 0)
+		(at 260.35 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12318,7 +12601,7 @@
 		)
 		(uuid "dd4cb6da-d88e-4550-9265-7a2f09959b84")
 	)
-	(label "GPIO3"
+	(label "GPIO4"
 		(at 171.45 43.18 0)
 		(effects
 			(font
@@ -12387,95 +12670,6 @@
 			(justify left bottom)
 		)
 		(uuid "fb8c9bc8-8ea4-4070-acf4-914556f6fa29")
-	)
-	(symbol
-		(lib_id "PCM_Elektuur:R")
-		(at 107.95 34.29 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "064e2576-cecf-4bfe-9c92-0c60290c751e")
-		(property "Reference" "R4"
-			(at 110.49 33.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10kOm"
-			(at 110.49 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_THT_AKL_Double:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 107.95 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "resistor"
-			(at 107.95 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 111.125 37.465 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 105.41 31.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1495e57a-63af-47ba-9735-413045d08ebc")
-		)
-		(pin "2"
-			(uuid "b73be0c9-5511-44c9-b262-82b590486e50")
-		)
-		(instances
-			(project "power-control"
-				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "PCM_SL_Devices:Push_Button")
@@ -12557,7 +12751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09425ff9-386a-43e9-b2c2-28f43aab9ec1")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR09"
 			(at 222.25 95.25 0)
 			(effects
 				(font
@@ -12607,23 +12801,90 @@
 		(instances
 			(project "power-control"
 				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "#PWR019")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "PCM_Resistor_AKL:R_0805")
-		(at 210.82 115.57 90)
+		(lib_id "PCM_Resistor_AKL:R_1206")
+		(at 210.82 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0e426e0d-4eb4-4a2b-a64c-194a2470617d")
-		(property "Reference" "R14"
-			(at 210.82 115.57 90)
+		(uuid "09c7e95f-7d38-4f8c-b527-44127f731a67")
+		(property "Reference" "R6"
+			(at 210.82 98.806 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_47kOm"
+			(at 210.82 100.584 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric"
+			(at 222.25 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 1206 Chip Resistor, European Symbol, Alternate KiCad Library"
+			(at 210.82 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c935b50-4610-4448-a324-87caa65a4f3a")
+		)
+		(pin "2"
+			(uuid "4431edc6-99d6-4b17-8112-02b7c6332ee2")
+		)
+		(instances
+			(project ""
+				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_AKL:R_1206")
+		(at 210.82 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0dc8c6d4-605d-4710-a0d9-128ef2075411")
+		(property "Reference" "R8"
+			(at 210.82 117.856 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12631,83 +12892,15 @@
 			)
 		)
 		(property "Value" "R_100kOm"
-			(at 210.312 113.03 90)
+			(at 210.82 119.634 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric"
-			(at 222.25 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 210.82 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0805 Chip Resistor, European Symbol, Alternate KiCad Library"
-			(at 210.82 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b4668e0e-60a5-4e1e-9481-e0adb0a98bf1")
-		)
-		(pin "1"
-			(uuid "98e10cba-52eb-46d6-bf5f-5a1406fee167")
-		)
-		(instances
-			(project "power-control"
-				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_0603")
-		(at 93.98 149.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18a2fe89-9ecb-42d8-aaab-fa1d884d6aad")
-		(property "Reference" "C12"
-			(at 93.98 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100uF_0603"
-			(at 93.98 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
-			(at 97.79 148.8948 0)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric"
+			(at 222.25 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12716,7 +12909,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 149.86 0)
+			(at 210.82 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12724,112 +12917,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
-			(at 93.98 149.86 0)
+		(property "Description" "SMD 1206 Chip Resistor, European Symbol, Alternate KiCad Library"
+			(at 210.82 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b2ae57fa-1a16-4ee1-85f2-df2ed9be34b3")
-		)
-		(pin "2"
-			(uuid "d827cfc2-d62f-4406-ad75-0c42c95db4df")
-		)
-		(instances
-			(project "power-control"
-				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Elektuur:R")
-		(at 179.07 35.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1a468531-e503-420e-b870-b5a334a52859")
-		(property "Reference" "R2"
-			(at 179.07 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1kOm"
-			(at 179.07 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_THT_AKL_Double:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 179.07 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "resistor"
-			(at 179.07 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 175.895 38.735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 182.245 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "7e36aa49-ab33-4d1b-abb7-087a06147fb0")
+			(uuid "aecc7659-2dff-4bdc-93e2-3e5a31ef41d0")
 		)
 		(pin "2"
-			(uuid "c0c96f1e-3838-4c95-aa5b-84992ae96f2b")
+			(uuid "be8529bd-aeb8-4e2f-838c-ec2c9234ab2f")
 		)
 		(instances
 			(project "power-control"
 				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "R2")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -12845,7 +12951,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ca84a5b-1bbf-4abb-82a1-5b6bb9066789")
-		(property "Reference" "J1"
+		(property "Reference" "J8"
 			(at 198.12 62.8649 90)
 			(effects
 				(font
@@ -12863,7 +12969,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical.wrl"
 			(at 196.85 63.5 0)
 			(effects
 				(font
@@ -12899,7 +13005,7 @@
 		(instances
 			(project ""
 				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "J1")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -12915,7 +13021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2051fd01-027d-48b7-895d-8d7fe2173b70")
-		(property "Reference" "J6"
+		(property "Reference" "J2"
 			(at 96.52 118.1099 90)
 			(effects
 				(font
@@ -12924,7 +13030,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "USB_A"
+		(property "Value" "USB_1"
 			(at 96.52 120.6499 90)
 			(effects
 				(font
@@ -12978,7 +13084,7 @@
 		(instances
 			(project "power-control"
 				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "J6")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -13002,7 +13108,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "USB_A"
+		(property "Value" "USB_2"
 			(at 133.35 120.6499 90)
 			(effects
 				(font
@@ -13071,7 +13177,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "31d5493e-faa2-4c6e-b324-ca4fb8a757b8")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR05"
 			(at 133.35 191.77 0)
 			(effects
 				(font
@@ -13122,7 +13228,74 @@
 		(instances
 			(project "power-control"
 				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "#PWR01")
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_AKL:R_1206")
+		(at 107.95 34.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "323a541a-79e9-4db4-82aa-79aa5239f1cd")
+		(property "Reference" "R13"
+			(at 103.886 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_10kOm"
+			(at 105.664 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric"
+			(at 107.95 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 1206 Chip Resistor, European Symbol, Alternate KiCad Library"
+			(at 107.95 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c345cad-7c48-45be-8b24-420c2f68dfcb")
+		)
+		(pin "2"
+			(uuid "bb96e8f5-199f-4787-b7dc-4969e14d3de1")
+		)
+		(instances
+			(project "power-control"
+				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -13138,7 +13311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32eb46b2-bb6e-45e1-99d6-7ffd06da58f2")
-		(property "Reference" "J10"
+		(property "Reference" "J3"
 			(at 106.68 158.75 90)
 			(effects
 				(font
@@ -13196,7 +13369,7 @@
 		(instances
 			(project "power-control"
 				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "J10")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -13212,7 +13385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39284d07-6642-4bfc-8050-5c926b88526d")
-		(property "Reference" "C9"
+		(property "Reference" "C6"
 			(at 203.2 72.3899 0)
 			(effects
 				(font
@@ -13230,7 +13403,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
 			(at 198.4248 69.85 0)
 			(effects
 				(font
@@ -13266,7 +13439,141 @@
 		(instances
 			(project "power-control"
 				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "C9")
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_AKL:R_0603")
+		(at 223.52 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3aa7dbcd-bc9e-41f9-b4c0-24b6f221d337")
+		(property "Reference" "R1"
+			(at 223.52 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.7kOm"
+			(at 223.52 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric"
+			(at 234.95 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 Chip Resistor, European Symbol, Alternate KiCad Library"
+			(at 223.52 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92074aeb-c0d4-4603-a853-c6a1298ff2dc")
+		)
+		(pin "2"
+			(uuid "52e0a28e-89cb-4992-96c4-388b210607e6")
+		)
+		(instances
+			(project ""
+				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_AKL:R_1206")
+		(at 196.85 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ad1cc66-beb6-462d-81d4-7e729a88e621")
+		(property "Reference" "R5"
+			(at 196.85 91.186 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_100kOm"
+			(at 196.85 92.964 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric"
+			(at 208.28 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 1206 Chip Resistor, European Symbol, Alternate KiCad Library"
+			(at 196.85 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3e4d51b-bcf2-49dc-9669-42b1f46f08d8")
+		)
+		(pin "2"
+			(uuid "abbba631-03c9-46a4-9477-ef2b769c0ae7")
+		)
+		(instances
+			(project "power-control"
+				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -13281,7 +13588,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d8e9fc1-a947-4523-8bf1-abb27dd3b113")
-		(property "Reference" "reset-transistor1"
+		(property "Reference" "BC2"
 			(at 194.31 34.2899 0)
 			(effects
 				(font
@@ -13290,7 +13597,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC548"
+		(property "Value" "Q2"
 			(at 194.31 36.8299 0)
 			(effects
 				(font
@@ -13338,74 +13645,7 @@
 		(instances
 			(project "power-control"
 				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "reset-transistor1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Resistors:Resistor")
-		(at 223.52 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4172b089-aab8-4b4a-bd17-7415eae23f8f")
-		(property "Reference" "R13"
-			(at 223.52 154.94 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "2.7kOm"
-			(at 223.266 156.972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_THT_AKL_Double:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 224.409 159.258 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.028 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1/4W Resistor"
-			(at 223.52 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5cee7f77-9f88-4ff1-ab9c-a3826f6ea1ee")
-		)
-		(pin "1"
-			(uuid "1f5a0143-cdb2-48ad-a57d-413c6323a474")
-		)
-		(instances
-			(project "power-control"
-				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "R13")
+					(reference "BC2")
 					(unit 1)
 				)
 			)
@@ -13419,9 +13659,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "469252ec-3b19-4687-9b7d-60449fc5add1")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR08"
 			(at 210.82 96.52 0)
 			(effects
 				(font
@@ -13431,7 +13670,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 210.82 95.25 0)
+			(at 210.82 94.234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13471,94 +13710,7 @@
 		(instances
 			(project "power-control"
 				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Elektuur:R")
-		(at 46.99 35.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b21a5fc-ce47-4396-b515-363007c619c3")
-		(property "Reference" "R1"
-			(at 46.99 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1kOm"
-			(at 46.99 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_THT_AKL_Double:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 46.99 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "resistor"
-			(at 46.99 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 43.815 38.735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 50.165 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "89219756-e68d-4026-9eec-1dce71c477b0")
-		)
-		(pin "2"
-			(uuid "d787f8f5-b893-4117-b093-868dc2a24714")
-		)
-		(instances
-			(project "power-control"
-				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "R1")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -13634,6 +13786,73 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_Resistor_AKL:R_1206")
+		(at 100.33 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c9e8526-b19f-4bdd-a7a0-0c9d2650e44d")
+		(property "Reference" "R12"
+			(at 100.33 42.926 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_10kOm"
+			(at 100.33 44.704 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric"
+			(at 111.76 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 1206 Chip Resistor, European Symbol, Alternate KiCad Library"
+			(at 100.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f701e9e-7b52-4364-a6be-f66fe6971819")
+		)
+		(pin "2"
+			(uuid "260da83a-eafd-489c-acb3-38df304564df")
+		)
+		(instances
+			(project "power-control"
+				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Capacitor_AKL:C_0603")
 		(at 226.06 86.36 90)
 		(unit 1)
@@ -13643,7 +13862,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cfae394-4ed6-41a1-b9a6-2d59e411fb62")
-		(property "Reference" "C16"
+		(property "Reference" "C8"
 			(at 226.06 78.74 90)
 			(effects
 				(font
@@ -13659,7 +13878,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
 			(at 229.87 85.3948 0)
 			(effects
 				(font
@@ -13695,75 +13914,7 @@
 		(instances
 			(project "power-control"
 				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_0603")
-		(at 60.96 115.57 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f97c002-8439-48d7-9477-bde66626e1b4")
-		(property "Reference" "C10"
-			(at 60.96 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100uF_0603"
-			(at 60.96 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
-			(at 64.77 114.6048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
-			(at 60.96 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6ff5ebc9-ab2a-45f0-84c0-d87af0bbe6a0")
-		)
-		(pin "2"
-			(uuid "d8305eb5-510b-4b1a-a29a-9ff8527dc4da")
-		)
-		(instances
-			(project "power-control"
-				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "C10")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -13779,7 +13930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53b60106-bf83-4123-8561-017e1fd8aca3")
-		(property "Reference" "C17"
+		(property "Reference" "C7"
 			(at 207.01 81.28 90)
 			(effects
 				(font
@@ -13795,7 +13946,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
 			(at 210.82 87.9348 0)
 			(effects
 				(font
@@ -13831,7 +13982,75 @@
 		(instances
 			(project "power-control"
 				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "C17")
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Capacitors:100uF_16V")
+		(at 128.27 110.49 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54525adb-b6b1-4624-8129-d9e6cb293f22")
+		(property "Reference" "C4"
+			(at 128.27 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100uF_16V"
+			(at 128.27 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_THT_AKL:C_Radial_D5.0mm_H11.0mm_P2.00mm"
+			(at 127.508 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127.762 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100uF, 16V Electrolytic Capacitor"
+			(at 128.27 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ad05d778-78b1-4f55-9783-58ed1288cd5e")
+		)
+		(pin "1"
+			(uuid "991eec58-271e-49b4-9e35-1b9bc1eabde8")
+		)
+		(instances
+			(project "power-control"
+				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -13847,7 +14066,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60e4dd18-ebd0-49e1-a40d-c3ece8d6a5c2")
-		(property "Reference" "C13"
+		(property "Reference" "C9"
 			(at 241.3 62.23 90)
 			(effects
 				(font
@@ -13863,7 +14082,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
 			(at 245.11 68.8848 0)
 			(effects
 				(font
@@ -13899,7 +14118,7 @@
 		(instances
 			(project "power-control"
 				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "C13")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -13913,10 +14132,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "61f3c803-78e3-4102-86ad-96997349e80d")
 		(property "Reference" "U1"
-			(at 48.26 59.69 0)
+			(at 48.26 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14146,7 +14364,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b85899a-b172-466a-962d-e3f16ec2a75b")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR06"
 			(at 191.77 104.14 0)
 			(effects
 				(font
@@ -14196,7 +14414,7 @@
 		(instances
 			(project "power-control"
 				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "#PWR022")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -14289,6 +14507,73 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_Resistor_AKL:R_1206")
+		(at 179.07 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74724567-1039-40c0-bf4a-775acedf8b8d")
+		(property "Reference" "R11"
+			(at 179.07 31.496 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_1kOm"
+			(at 179.07 33.274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric"
+			(at 190.5 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 1206 Chip Resistor, European Symbol, Alternate KiCad Library"
+			(at 179.07 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60166cc5-2c52-46e0-a335-dfed453e19cf")
+		)
+		(pin "2"
+			(uuid "bdf24f87-dd58-440f-941d-7627779240a0")
+		)
+		(instances
+			(project "power-control"
+				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Transistor_BJT_AKL:BC548")
 		(at 57.15 35.56 0)
 		(unit 1)
@@ -14298,7 +14583,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82c56f1b-549a-4813-8b21-13aa9ff789a8")
-		(property "Reference" "power-transistor1"
+		(property "Reference" "BC1"
 			(at 62.23 34.2899 0)
 			(effects
 				(font
@@ -14307,7 +14592,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC548"
+		(property "Value" "Q1"
 			(at 62.23 36.8299 0)
 			(effects
 				(font
@@ -14355,7 +14640,7 @@
 		(instances
 			(project "power-control"
 				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "power-transistor1")
+					(reference "BC1")
 					(unit 1)
 				)
 			)
@@ -14369,10 +14654,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "88b2ab59-a22a-496e-8e94-95bb19b9e819")
 		(property "Reference" "D1"
-			(at 95.25 34.2899 90)
+			(at 94.488 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14381,7 +14665,7 @@
 			)
 		)
 		(property "Value" "LED_3mm"
-			(at 95.25 36.8299 90)
+			(at 94.488 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14432,41 +14716,33 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Resistor_AKL:R_0805")
-		(at 210.82 121.92 90)
+		(lib_id "PCM_SL_Capacitors:100uF_16V")
+		(at 130.81 149.86 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "899eec49-739c-476a-a991-a9763d646b87")
-		(property "Reference" "R15"
-			(at 210.82 121.92 90)
+		(fields_autoplaced yes)
+		(uuid "8d1ec6a1-a643-4440-8b01-ac0a4b361274")
+		(property "Reference" "C2"
+			(at 130.81 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R_100kOm"
-			(at 210.312 119.38 90)
+		(property "Value" "100uF_16V"
+			(at 130.81 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric"
-			(at 222.25 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 210.82 121.92 0)
+		(property "Footprint" "PCM_Capacitor_THT_AKL:C_Radial_D5.0mm_H11.0mm_P2.00mm"
+			(at 130.048 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14474,8 +14750,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0805 Chip Resistor, European Symbol, Alternate KiCad Library"
-			(at 210.82 121.92 0)
+		(property "Datasheet" ""
+			(at 130.302 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100uF, 16V Electrolytic Capacitor"
+			(at 130.81 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14484,15 +14769,82 @@
 			)
 		)
 		(pin "2"
-			(uuid "5a6db36c-de50-4f75-b8b7-026349e6a0e1")
+			(uuid "3c83d975-de26-4fb9-a41c-811a3ffc3f98")
 		)
 		(pin "1"
-			(uuid "60353c50-6904-41d6-af49-977e75fff368")
+			(uuid "bd03b0d4-3f47-4e4c-b6ac-29039dbf7f67")
+		)
+		(instances
+			(project ""
+				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_AKL:R_1206")
+		(at 45.72 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f206d9a-9516-47a0-85cf-8ee8abed662f")
+		(property "Reference" "R10"
+			(at 45.72 31.496 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_1kOm"
+			(at 45.72 33.274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric"
+			(at 57.15 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 1206 Chip Resistor, European Symbol, Alternate KiCad Library"
+			(at 45.72 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19fde73a-08d3-42bd-a48d-f12fba062214")
+		)
+		(pin "2"
+			(uuid "2bf33b05-6818-4055-9c83-e6967679c4fd")
 		)
 		(instances
 			(project "power-control"
 				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "R15")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -14508,7 +14860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99b0705f-f063-40b7-86da-9dc285ed3df6")
-		(property "Reference" "CRYSTAL2"
+		(property "Reference" "CRYSTAL1"
 			(at 205.74 138.4299 90)
 			(effects
 				(font
@@ -14562,140 +14914,7 @@
 		(instances
 			(project "power-control"
 				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "CRYSTAL2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Resistor_AKL:R_0805")
-		(at 196.85 95.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a301061f-1eba-4056-8699-c0d16b16887d")
-		(property "Reference" "R17"
-			(at 196.85 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_100kOm"
-			(at 196.342 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric"
-			(at 208.28 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 196.85 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0805 Chip Resistor, European Symbol, Alternate KiCad Library"
-			(at 196.85 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "076f0da5-5a00-4713-8043-8c6d6b4e8dd9")
-		)
-		(pin "1"
-			(uuid "dc1806a6-f39c-4ea5-95fa-682357016be3")
-		)
-		(instances
-			(project "power-control"
-				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 86.36 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a424bbc5-6a19-422e-a4e5-6eb54ddcc6aa")
-		(property "Reference" "#PWR04"
-			(at 86.36 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 86.36 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f682783c-f419-49a3-9f4c-fd9ccf1c3fe3")
-		)
-		(instances
-			(project "power-control"
-				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "#PWR04")
+					(reference "CRYSTAL1")
 					(unit 1)
 				)
 			)
@@ -14711,7 +14930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a72ac9d8-ae9a-45e1-b881-50bcdf3b5265")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR012"
 			(at 250.19 97.79 0)
 			(effects
 				(font
@@ -14761,7 +14980,7 @@
 		(instances
 			(project "power-control"
 				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "#PWR018")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -14777,7 +14996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aabe3965-ba79-44c4-9ecf-69fd07544423")
-		(property "Reference" "J3"
+		(property "Reference" "J7"
 			(at 149.86 168.91 0)
 			(effects
 				(font
@@ -14853,7 +15072,75 @@
 		(instances
 			(project "power-control"
 				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "J3")
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Capacitors:100uF_16V")
+		(at 60.96 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3770f61-c3bd-4bcf-8718-f8ec260075ce")
+		(property "Reference" "C5"
+			(at 60.96 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100uF_16V"
+			(at 60.96 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_THT_AKL:C_Radial_D5.0mm_H11.0mm_P2.00mm"
+			(at 61.722 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 61.468 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100uF, 16V Electrolytic Capacitor"
+			(at 60.96 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ac3481db-fca3-46da-80d5-ecc57e0dcf70")
+		)
+		(pin "1"
+			(uuid "45b551be-b382-4bb0-a48c-89ce67596e8e")
+		)
+		(instances
+			(project "power-control"
+				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -14869,7 +15156,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8f955b5-1c12-4672-9996-233c9b80b36c")
-		(property "Reference" "C15"
+		(property "Reference" "C10"
 			(at 246.38 81.28 90)
 			(effects
 				(font
@@ -14885,7 +15172,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
 			(at 250.19 87.9348 0)
 			(effects
 				(font
@@ -14921,108 +15208,40 @@
 		(instances
 			(project "power-control"
 				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "C15")
+					(reference "C10")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_0603")
-		(at 128.27 110.49 90)
+		(lib_id "PCM_SL_Capacitors:100uF_16V")
+		(at 93.98 149.86 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b992b0bc-2bdc-470a-8936-9bf77b40ccf8")
+		(uuid "bd638f59-c607-4a9a-b63e-4fb5c807306d")
 		(property "Reference" "C3"
-			(at 128.27 102.87 90)
+			(at 93.98 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100uF_0603"
-			(at 128.27 105.41 90)
+		(property "Value" "100uF_16V"
+			(at 93.98 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
-			(at 132.08 109.5248 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
-			(at 128.27 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "724a8c0e-b91a-4966-acae-61161d4c8011")
-		)
-		(pin "2"
-			(uuid "eff63bcb-e3c9-4319-9328-71729da15365")
-		)
-		(instances
-			(project "power-control"
-				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Elektuur:R")
-		(at 100.33 46.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bca64cc6-a356-4e7b-9138-6db5deb3e86c")
-		(property "Reference" "R3"
-			(at 100.33 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10kOm"
-			(at 100.33 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_THT_AKL_Double:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 100.33 46.99 0)
+		(property "Footprint" "PCM_Capacitor_THT_AKL:C_Radial_D5.0mm_H11.0mm_P2.00mm"
+			(at 93.218 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15031,7 +15250,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 46.99 0)
+			(at 93.472 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15039,44 +15258,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
-			(at 100.33 46.99 0)
+		(property "Description" "100uF, 16V Electrolytic Capacitor"
+			(at 93.98 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Indicator" "+"
-			(at 97.155 50.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 103.505 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fc6c30b3-e5bd-4077-820f-de17dcad8f0d")
 		)
 		(pin "2"
-			(uuid "2246dd70-dafc-4226-8a13-1a77c0e70978")
+			(uuid "24304e80-3132-4bce-a04f-6b1d3c7a7766")
+		)
+		(pin "1"
+			(uuid "e849730b-848a-48d3-95b8-4eec6945890a")
 		)
 		(instances
 			(project "power-control"
 				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "R3")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -15092,7 +15292,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd9ef8e6-2c3b-419b-81b9-704920f8c95d")
-		(property "Reference" "J7"
+		(property "Reference" "J6"
 			(at 143.51 158.75 90)
 			(effects
 				(font
@@ -15150,74 +15350,7 @@
 		(instances
 			(project "power-control"
 				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Resistor_AKL:R_0805")
-		(at 210.82 102.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c57d60e6-de8e-4bb6-80c0-06d4603b5e72")
-		(property "Reference" "R16"
-			(at 210.82 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_47kOm"
-			(at 210.312 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric"
-			(at 222.25 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 210.82 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0805 Chip Resistor, European Symbol, Alternate KiCad Library"
-			(at 210.82 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5f01fd9e-9539-4c7a-8ec1-0cedf5b63f65")
-		)
-		(pin "1"
-			(uuid "a18150de-4498-4936-949e-d3a090269697")
-		)
-		(instances
-			(project "power-control"
-				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "R16")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -15233,7 +15366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb31eae3-8f1c-4f3d-9ca6-9716033a90d9")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR07"
 			(at 194.31 85.09 0)
 			(effects
 				(font
@@ -15283,7 +15416,7 @@
 		(instances
 			(project "power-control"
 				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "#PWR020")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -15298,7 +15431,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1155d76-741c-4d0a-85ae-6e9fd7ab6c54")
-		(property "Reference" "J9"
+		(property "Reference" "J1"
 			(at 49.53 99.06 90)
 			(effects
 				(font
@@ -15356,75 +15489,7 @@
 		(instances
 			(project "power-control"
 				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_0603")
-		(at 130.81 149.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d290619d-9a92-47cd-b3f4-762a7230cab8")
-		(property "Reference" "C5"
-			(at 130.81 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100uF_0603"
-			(at 130.81 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
-			(at 134.62 148.8948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
-			(at 130.81 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "50987efe-0fa8-45ee-9725-7cf87a22bdba")
-		)
-		(pin "2"
-			(uuid "c18932a2-57a1-40f5-aa6a-0922697b3dd6")
-		)
-		(instances
-			(project "power-control"
-				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "C5")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -15510,7 +15575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8b1fffb-19f2-43cb-b774-6a602c46a785")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR03"
 			(at 123.19 121.92 0)
 			(effects
 				(font
@@ -15560,7 +15625,7 @@
 		(instances
 			(project "power-control"
 				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "#PWR05")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -15576,7 +15641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9a99e63-9505-4439-8f7f-8105bc31a05d")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR010"
 			(at 234.95 163.83 0)
 			(effects
 				(font
@@ -15626,7 +15691,7 @@
 		(instances
 			(project "power-control"
 				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "#PWR011")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -15642,7 +15707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df406b32-543b-4e1a-ba2b-3d5617df5b1e")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR02"
 			(at 90.17 160.02 0)
 			(effects
 				(font
@@ -15692,7 +15757,7 @@
 		(instances
 			(project "power-control"
 				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "#PWR015")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -15708,7 +15773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e78686ab-814c-43e5-aeda-78017266fe40")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR011"
 			(at 245.11 78.74 0)
 			(effects
 				(font
@@ -15758,75 +15823,7 @@
 		(instances
 			(project "power-control"
 				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_0603")
-		(at 91.44 110.49 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eabd0d6f-3fe6-4a83-b4fa-ca142385f694")
-		(property "Reference" "C6"
-			(at 91.44 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100uF_0603"
-			(at 91.44 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
-			(at 95.25 109.5248 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
-			(at 91.44 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8f7f8433-02f0-4184-982a-fcd0a5d428a7")
-		)
-		(pin "2"
-			(uuid "61a478e7-dae1-4c97-8e1c-79ad0221bfe1")
-		)
-		(instances
-			(project "power-control"
-				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "C6")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -15912,7 +15909,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f64ca5ba-2122-400c-ac37-f73ba0af6eea")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR04"
 			(at 127 160.02 0)
 			(effects
 				(font
@@ -15962,7 +15959,7 @@
 		(instances
 			(project "power-control"
 				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "#PWR014")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -15976,10 +15973,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f661e9fa-098f-49d6-82c0-6f60b8997a6e")
-		(property "Reference" "U3"
-			(at 237.0933 153.67 0)
+		(property "Reference" "U2"
+			(at 234.442 125.476 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16110,7 +16106,74 @@
 		(instances
 			(project "power-control"
 				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
-					(reference "U3")
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_AKL:R_1206")
+		(at 210.82 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7e1e10b-6031-4053-ba25-b29cffd58bf8")
+		(property "Reference" "R7"
+			(at 210.82 111.506 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_100kOm"
+			(at 210.82 113.284 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric"
+			(at 222.25 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 1206 Chip Resistor, European Symbol, Alternate KiCad Library"
+			(at 210.82 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "393ee376-e2af-4c78-adf4-04a2098eb69d")
+		)
+		(pin "2"
+			(uuid "e67265e4-82e6-4bbd-9b2e-000a3e849625")
+		)
+		(instances
+			(project "power-control"
+				(path "/7469af5c-4aa9-4f0b-a6d5-83124583f402"
+					(reference "R7")
 					(unit 1)
 				)
 			)

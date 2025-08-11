@@ -1,16 +1,20 @@
 substitutions:
-  power_pin: GPIO4     
-  reboot_pin: GPIO6    
-  status_pin: GPIO8
-  vm_power_pin: GPIO10  
+  power_pin: GPIO7
+  reboot_pin: GPIO4
+  status_pin: GPIO5
+  button_pin: GPIO3
   api_key: !secret power_control_api
   wifi_ssid: !secret wifi_ssid
   wifi_password: !secret wifi_password
   ap_password: !secret ap_password
+  server_url: "http://server:8080"
 
 esphome:
   name: pc-power-control
-  friendly_name: "PC Control"
+  friendly_name: "PC Power"
+  platformio_options:
+    build_flags:
+      - '-DCONFIG_ESP_CONSOLE_USB_CDC=n'
 
 esp32:
   board: esp32-c3-devkitm-1
@@ -27,40 +31,40 @@ uart:
   stop_bits: 1
 
 logger:
-  level: DEBUG  # Включаем подробное логирование
+  level: DEBUG
   baud_rate: 115200
-
-api:
-  encryption:
-    key: ${api_key}
-  reboot_timeout: 0s
-
-ota:
-  platform: esphome
-  password: 1507
-
-wifi:
-  ssid: ${wifi_ssid}
-  password: ${wifi_password}
-
-  ap:
-    ssid: "PC-Control-Fallback"
-    password: ${ap_password}
+  logs:
+    component.gpio: DEBUG
+    multi_click: DEBUG
 
 web_server:
   port: 80
 
-# **Исправлено: добавлен блок output**
+ota:
+  - platform: esphome
+    password: 1507
+  - platform: web_server
+
+wifi:
+  ssid: ${wifi_ssid}
+  password: ${wifi_password}
+  ap:
+    ssid: "PC-Control-Fallback"
+    password: ${ap_password}
+
+http_request:
+  useragent: esphome/pc-power-control
+  timeout: 5s
+  verify_ssl: false
+
 output:
   - platform: gpio
     pin: ${power_pin}
     id: power_button_output
-
   - platform: gpio
     pin: ${reboot_pin}
     id: reboot_button_output
 
-# **Исправлено: корректный статусный датчик**
 binary_sensor:
   - platform: gpio
     pin:
@@ -70,10 +74,45 @@ binary_sensor:
     device_class: power
     id: pc_status
 
+  - platform: gpio
+    pin:
+      number: ${button_pin}
+      mode: INPUT_PULLUP
+      inverted: true
+    name: "Physical Button"
+    id: physical_button
+    internal: true
+    filters:
+      - delayed_on: 100ms  # Уменьшил задержку для более быстрого реагирования
+      - delayed_off: 100ms
+    on_multi_click:
+      - timing:
+          - ON for at most 0.3s  # Быстрое нажатие
+          - OFF for at least 0.1s  # Минимальная пауза
+          - ON for at most 0.3s  # Второе быстрое нажатие
+          - OFF for at least 0.1s
+        then:
+          - logger.log: "Double press detected - stopping VM"
+          - http_request.get:
+              url: "${server_url}/stop_win.sh"
+      - timing:
+          - ON for at most 0.5s  # Одиночное нажатие
+          - OFF for at least 0.3s
+        then:
+          - logger.log: "Single press detected - starting VM"
+          - http_request.get:
+              url: "${server_url}/start_win.sh"
+      - timing:
+          - ON for at least 4s  # Длинное нажатие (уменьшил время)
+          - OFF for at least 0.3s
+        then:
+          - logger.log: "Long press detected - force stopping VM"
+          - http_request.get:
+              url: "${server_url}/destroy_win.sh"
+
 sensor:
   - platform: uptime
     name: "Uptime"
-
   - platform: wifi_signal
     name: "WiFi Signal"
     update_interval: 60s
@@ -83,9 +122,7 @@ text_sensor:
     ip_address:
       name: "IP Address"
 
-# **Исправлено: Теперь кнопки используют output.turn_on**
 button:
-  # ПК
   - platform: template
     name: "Turn On PC"
     icon: "mdi:power"
@@ -98,6 +135,8 @@ button:
           - output.turn_on: power_button_output
           - delay: 500ms
           - output.turn_off: power_button_output
+          - http_request.get:
+              url: "${server_url}/start_win.sh"
 
   - platform: template
     name: "Soft Shutdown PC"
@@ -108,6 +147,9 @@ button:
         condition:
           binary_sensor.is_on: pc_status
         then:
+          - http_request.get:
+              url: "${server_url}/stop_win.sh"
+          - delay: 5s
           - output.turn_on: power_button_output
           - delay: 1s
           - output.turn_off: power_button_output
@@ -121,6 +163,9 @@ button:
         condition:
           binary_sensor.is_on: pc_status
         then:
+          - http_request.get:
+              url: "${server_url}/destroy_win.sh"
+          - delay: 5s
           - output.turn_on: power_button_output
           - delay: 5s
           - output.turn_off: power_button_output
@@ -134,35 +179,33 @@ button:
       - delay: 500ms
       - output.turn_off: reboot_button_output
 
-  # Управление ВМ
   - platform: template
     name: "Start VM"
-    icon: "mdi:play"
+    icon: "mdi:server"
     entity_category: "config"
     on_press:
-      - logger.log: "VM START command"
-      - uart.write: "start\n"
+      - http_request.get:
+          url: "${server_url}/start_win.sh"
 
   - platform: template
     name: "Stop VM"
-    icon: "mdi:stop"
+    icon: "mdi:server-off"
     entity_category: "config"
     on_press:
-      - logger.log: "VM STOP command"
-      - uart.write: "stop\n"
-
-  - platform: template
-    name: "Reboot VM"
-    icon: "mdi:restart"
-    entity_category: "config"
-    on_press:
-      - logger.log: "VM REBOOT command"
-      - uart.write: "reboot\n"
+      - http_request.get:
+          url: "${server_url}/stop_win.sh"
 
   - platform: template
     name: "Force Stop VM"
-    icon: "mdi:power-off"
+    icon: "mdi:server-remove"
     entity_category: "config"
     on_press:
-      - logger.log: "VM FORCE STOP command"
-      - uart.write: "destroy\n"
+      - http_request.get:
+          url: "${server_url}/destroy_win.sh"
+
+interval:
+  - interval: 6h
+    then:
+      - logger.log: "Scheduled ESP32 restart (every 6 hours)"
+      - lambda: |-
+          ESP.restart();
