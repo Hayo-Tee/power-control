@@ -1,33 +1,35 @@
 # Power Control PC by ESP32
 
-![ESP32-C3](/pictures/esp32_c3.webp)
+[🇷🇺 RU](README_ru.md) | [🇬🇧 EN](README.md)
 
-## Описание проекта
+<img src="/pictures/esp32_c3.webp" alt="ESP32-C3" width="400" />
 
-Недавно я приобрёл корпус **Cooler Master Stacker 830** и собрал серверный ПК на базе материнской платы **ASUS Z10PE-D8**. Поскольку доступ к серверу осуществляется через **Tailscale**, возникла задача — как включить ПК удалённо, если он был полностью выключен дома. В интернете есть множество решений, но я решил разработать собственное — на базе **ESPHome** и **ESP32-C3**.
+## Project Description
 
----
-
-## Основные возможности
-
-* **Включение ПК**
-* **Отключение ПК**
-* **Принудительное отключение ПК** (эмуляция долгого удержания кнопки питания)
-* **Перезагрузка ПК**
-* **Получение состояния** (включён / выключен)
+Recently, I purchased a **Cooler Master Stacker 830** case and built a server PC based on the **ASUS Z10PE-D8** motherboard. Since I access the server via **Tailscale**, I faced a challenge — how to power on the PC remotely if it is completely turned off at home. There are many solutions available online, but I decided to create my own using **ESPHome** and **ESP32-C3**.
 
 ---
 
-## Дополнительный функционал для Unraid
+## Key Features
 
-Так как на сервере установлена ОС **Unraid**, я добавил отдельную кнопку для управления виртуальной машиной. При желании её можно адаптировать под любые другие задачи, изменив соответствующий скрипт.
-
-* **Одиночное нажатие** — включает виртуальную машину
-* **Двойное нажатие** — отключает виртуальную машину
-* **Длинное нажатие** — принудительно отключает виртуальную машину
+* **Power on the PC**
+* **Power off the PC**
+* **Force shutdown** (emulation of holding the power button)
+* **Restart the PC**
+* **Get PC status** (on / off)
 
 ---
 
-## Лицензия
+## Additional Functionality for Unraid
 
-Проект распространяется по лицензии **MIT**.
+Since my server runs **Unraid OS**, I added an extra button to control a virtual machine. You can easily repurpose this feature for any other task by modifying the script.
+
+* **Single press** — starts the virtual machine
+* **Double press** — stops the virtual machine
+* **Long press** — force stops the virtual machine
+
+---
+
+## License
+
+This project is distributed under the **MIT** license.
