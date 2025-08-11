@@ -1,6 +1,6 @@
 # Power Control PC by ESP32
 
-![ESP32-C3](/pictures/esp32_c3.webp)
+<img src="/pictures/esp32_c3.webp" alt="ESP32-C3" width="400" />
 
 ## Описание проекта
 
